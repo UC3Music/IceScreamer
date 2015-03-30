@@ -1,4 +1,4 @@
-update=lun 30 mar 2015 22:47:46 CEST
+update=mar 31 mar 2015 00:48:30 CEST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -47,7 +47,7 @@ LibName16=valves
 version=1
 [eeschema]
 version=1
-LibDir=kicad-library;kicad-library
+LibDir=kicad-library
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -85,3 +85,6 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=kicad-library
+LibName32=tubescreamer-cache
+LibName33=/home/jorfru/uC3Moy/KiCadFiles/uC3Moy-cache
+LibName34=icescreamer
