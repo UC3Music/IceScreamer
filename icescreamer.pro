@@ -1,11 +1,6 @@
-update=mar 31 mar 2015 00:48:30 CEST
+update=mar 31 mar 2015 02:39:36 CEST
 version=1
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [pcbnew]
 version=1
 LastNetListRead=
@@ -26,7 +21,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -43,11 +37,12 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
+LibDir=
 [general]
 version=1
 [eeschema]
 version=1
-LibDir=kicad-library
+LibDir=kicad-library;kicad-library;kicad-library;kicad-library
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -88,3 +83,8 @@ LibName31=kicad-library
 LibName32=tubescreamer-cache
 LibName33=/home/jorfru/uC3Moy/KiCadFiles/uC3Moy-cache
 LibName34=icescreamer
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
