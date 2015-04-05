@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = mar 31 mar 2015 02:48:06 CEST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = dom 05 abr 2015 14:04:23 CEST
 
 BeginCmp
 TimeStamp = /5511965E;
@@ -284,21 +284,21 @@ BeginCmp
 TimeStamp = /55119907;
 Reference = RV1;
 ValeurCmp = 500KA;
-IdModule  = PINHEAD1-3;
+IdModule  = Passive_pot_THD;
 EndCmp
 
 BeginCmp
 TimeStamp = /55119F6C;
 Reference = RV2;
 ValeurCmp = 20K;
-IdModule  = PINHEAD1-3;
+IdModule  = Passive_pot_THD;
 EndCmp
 
 BeginCmp
 TimeStamp = /55119FF1;
 Reference = RV3;
 ValeurCmp = 100KA;
-IdModule  = PINHEAD1-3;
+IdModule  = Passive_pot_THD;
 EndCmp
 
 BeginCmp

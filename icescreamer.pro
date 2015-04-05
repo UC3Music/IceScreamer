@@ -1,4 +1,4 @@
-update=dom 05 abr 2015 12:56:10 CEST
+update=dom 05 abr 2015 14:03:12 CEST
 version=1
 last_client=pcbnew
 [general]
@@ -71,7 +71,7 @@ DrawSegmentWidth="    0,200000"
 BoardOutlineThickness="    0,150000"
 ModuleOutlineThickness="    0,150000"
 [pcbnew/libraries]
-LibDir=
+LibDir=kicad-library
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -88,3 +88,4 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
+LibName17=kicad-library
