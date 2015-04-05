@@ -29,8 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:uC3Moy-cache
-LIBS:icescreamer
+LIBS:kicad-library
 LIBS:icescreamer-cache
 EELAYER 27 0
 EELAYER END
@@ -38,7 +37,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "TubeScreamer"
-Date "31 mar 2015"
+Date "5 apr 2015"
 Rev "0.1"
 Comp "DEF"
 Comment1 ""
@@ -145,8 +144,6 @@ F 3 "" H 3750 1000 60  0000 C CNN
 	1    3750 1000
 	1    0    0    -1  
 $EndComp
-Text Label 8300 5200 2    60   ~ 0
-TO_BYPASS
 $Comp
 L R R4
 U 1 1 55119830
@@ -499,8 +496,6 @@ F 3 "~" H 13650 2900 30  0000 C CNN
 	1    13650 2900
 	1    0    0    -1  
 $EndComp
-Text Label 10900 5750 2    60   ~ 0
-OUT
 $Comp
 L -5V #PWR012
 U 1 1 5511B635
