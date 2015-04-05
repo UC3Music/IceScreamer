@@ -1794,4 +1794,12 @@
     )
   )
 
+  (gr_line (start -19.000000 -49.000000) (end 19.000000 -49.000000) (angle 90) (layer Edge.Cuts) (width 0.200000))
+  (gr_line (start 24.000000 -44.000000) (end 24.000000 44.000000) (angle 90) (layer Edge.Cuts) (width 0.200000))
+  (gr_line (start 19.000000 49.000000) (end -19.000000 49.000000) (angle 90) (layer Edge.Cuts) (width 0.200000))
+  (gr_line (start -24.000000 44.000000) (end -24.000000 -44.000000) (angle 90) (layer Edge.Cuts) (width 0.200000))
+  (gr_arc (start 19.000000 -44.000000) (end 19.000000 -49.000000) (angle 90) (layer Edge.Cuts) (width 0.200000))
+  (gr_arc (start 19.000000 44.000000) (end 24.000000 44.000000) (angle 90) (layer Edge.Cuts) (width 0.200000))
+  (gr_arc (start -19.000000 44.000000) (end -19.000000 49.000000) (angle 90) (layer Edge.Cuts) (width 0.200000))
+  (gr_arc (start -19.000000 -44.000000) (end -24.000000 -44.000000) (angle 90) (layer Edge.Cuts) (width 0.200000))
 )
