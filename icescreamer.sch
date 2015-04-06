@@ -37,7 +37,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "TubeScreamer"
-Date "5 apr 2015"
+Date "6 apr 2015"
 Rev "0.1"
 Comp "DEF"
 Comment1 ""
@@ -1152,4 +1152,14 @@ F 3 "" H 9800 9300 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	9800 9300 9800 9200
+Text Notes 13500 4200 0    60   ~ 0
+Recommended transistors:\n(low noise)\nMPSA18\n2N5089
+Wire Notes Line
+	13400 4050 14750 4050
+Wire Notes Line
+	14750 4050 14750 4550
+Wire Notes Line
+	14750 4550 13400 4550
+Wire Notes Line
+	13400 4550 13400 4050
 $EndSCHEMATC
