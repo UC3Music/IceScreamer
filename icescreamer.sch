@@ -37,7 +37,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "TubeScreamer"
-Date "6 apr 2015"
+Date "7 apr 2015"
 Rev "0.1"
 Comp "DEF"
 Comment1 ""
@@ -532,12 +532,12 @@ $EndComp
 $Comp
 L GND #PWR015
 U 1 1 5511B926
-P 10550 2600
-F 0 "#PWR015" H 10550 2600 30  0001 C CNN
-F 1 "GND" H 10550 2530 30  0001 C CNN
-F 2 "" H 10550 2600 60  0000 C CNN
-F 3 "" H 10550 2600 60  0000 C CNN
-	1    10550 2600
+P 10550 2750
+F 0 "#PWR015" H 10550 2750 30  0001 C CNN
+F 1 "GND" H 10550 2680 30  0001 C CNN
+F 2 "" H 10550 2750 60  0000 C CNN
+F 3 "" H 10550 2750 60  0000 C CNN
+	1    10550 2750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -893,8 +893,6 @@ Connection ~ 9200 1900
 Wire Wire Line
 	9750 1900 9900 1900
 Wire Wire Line
-	10550 1900 10400 1900
-Wire Wire Line
 	8050 2000 8050 2800
 Wire Wire Line
 	8550 2350 8550 2300
@@ -907,7 +905,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 1800 6150 1800
 Wire Wire Line
-	10550 2500 10550 2600
+	10550 2500 10550 2750
 Wire Wire Line
 	11800 2250 12150 2250
 Wire Wire Line
@@ -1162,4 +1160,35 @@ Wire Notes Line
 	14750 4550 13400 4550
 Wire Notes Line
 	13400 4550 13400 4050
+$Comp
+L R R?
+U 1 1 5524175C
+P 10950 2600
+F 0 "R?" V 11030 2600 40  0000 C CNN
+F 1 "20K" V 10957 2601 40  0000 C CNN
+F 2 "~" V 10880 2600 30  0000 C CNN
+F 3 "~" H 10950 2600 30  0000 C CNN
+	1    10950 2600
+	0    1    1    0   
+$EndComp
+Connection ~ 11250 2250
+Text Notes 10650 2850 0    60   ~ 0
+Optional: to convert\nlinear pot to log pot
+Wire Wire Line
+	10550 1900 10400 1900
+Wire Wire Line
+	11250 2600 11200 2600
+Wire Wire Line
+	11250 2600 11250 2250
+Wire Wire Line
+	10700 2600 10550 2600
+Connection ~ 10550 2600
+Wire Notes Line
+	10650 2500 10650 2750
+Wire Notes Line
+	10650 2750 11300 2750
+Wire Notes Line
+	11300 2750 11300 2500
+Wire Notes Line
+	11300 2500 10650 2500
 $EndSCHEMATC
