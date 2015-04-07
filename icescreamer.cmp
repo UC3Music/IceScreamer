@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = dom 05 abr 2015 14:04:23 CEST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = mar 07 abr 2015 20:50:39 CEST
 
 BeginCmp
 TimeStamp = /5511965E;
@@ -134,17 +134,17 @@ IdModule  = D3;
 EndCmp
 
 BeginCmp
-TimeStamp = /5519D436;
+TimeStamp = /5524220A;
 Reference = J1;
-ValeurCmp = JACK_3P;
-IdModule  = BARREL_JACK;
+ValeurCmp = JACK;
+IdModule  = Conn_Jack_Female_635_THD;
 EndCmp
 
 BeginCmp
-TimeStamp = /5519D445;
+TimeStamp = /55242A87;
 Reference = J2;
-ValeurCmp = JACK_3P;
-IdModule  = BARREL_JACK;
+ValeurCmp = JACK;
+IdModule  = Conn_Jack_Female_635_THD;
 EndCmp
 
 BeginCmp
@@ -277,6 +277,13 @@ BeginCmp
 TimeStamp = /5511B2A7;
 Reference = R16;
 ValeurCmp = 10K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5524175C;
+Reference = R17;
+ValeurCmp = 20K;
 IdModule  = R3;
 EndCmp
 
