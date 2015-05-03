@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: mar 14 abr 2015 17:03:49 CEST
+EESchema-LIBRARY Version 2.3  Date: dom 03 may 2015 17:46:16 CEST
 #encoding utf-8
 #
 # +5V
@@ -239,7 +239,7 @@ ENDDEF
 # POT
 #
 DEF POT RV 0 40 Y N 1 F N
-F0 "RV" 0 -100 50 H V C CNN
+F0 "RV" 150 -100 50 H V C CNN
 F1 "POT" 0 0 50 H V C CNN
 F2 "~" 0 0 60 H V C CNN
 F3 "~" 0 0 60 H V C CNN
@@ -249,6 +249,7 @@ P 3 0 1 0  0 50  -20 70  20 70 F
 X 1 1 -250 0 100 R 40 40 1 1 P
 X 2 2 0 150 80 D 40 40 1 1 P
 X 3 3 250 0 100 L 40 40 1 1 P
+X ~ SLHD 0 -150 100 U 25 25 1 1 P
 ENDDRAW
 ENDDEF
 #

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = mar 07 abr 2015 20:50:39 CEST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = dom 03 may 2015 17:50:22 CEST
 
 BeginCmp
 TimeStamp = /5511965E;
@@ -288,31 +288,31 @@ IdModule  = R3;
 EndCmp
 
 BeginCmp
-TimeStamp = /55119907;
+TimeStamp = /55464106;
 Reference = RV1;
 ValeurCmp = 500KA;
-IdModule  = Passive_pot_THD;
+IdModule  = Passives_BOURNS_PTV09A;
 EndCmp
 
 BeginCmp
-TimeStamp = /55119F6C;
+TimeStamp = /55464137;
 Reference = RV2;
 ValeurCmp = 20K;
-IdModule  = Passive_pot_THD;
+IdModule  = Passives_BOURNS_PTV09A;
 EndCmp
 
 BeginCmp
-TimeStamp = /55119FF1;
+TimeStamp = /55464122;
 Reference = RV3;
 ValeurCmp = 100KA;
-IdModule  = Passive_pot_THD;
+IdModule  = Passives_BOURNS_PTV09A;
 EndCmp
 
 BeginCmp
 TimeStamp = /5519DE57;
 Reference = SW1;
 ValeurCmp = 3PDT;
-IdModule  = PIN_ARRAY_5x2;
+IdModule  = Switches_Stomp_3PDT;
 EndCmp
 
 BeginCmp
