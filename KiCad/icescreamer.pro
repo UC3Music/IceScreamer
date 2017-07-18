@@ -1,4 +1,4 @@
-update=31/08/2016 18:22:03
+update=mar 18 jul 2017 03:35:06 CEST
 version=1
 last_client=kicad
 [general]
@@ -48,7 +48,7 @@ LibName16=valves
 LibName17=kicad-library
 [eeschema]
 version=1
-LibDir=C:/Users/Jorge/Documents/GitHub/kicad-library/library;../kicad-library
+LibDir=../KiCad;../KiCad;../KiCad
 [eeschema/libraries]
 LibName1=icescreamer-rescue
 LibName2=power
@@ -82,3 +82,4 @@ LibName29=atmel
 LibName30=contrib
 LibName31=valves
 LibName32=kicad-library
+LibName33=icescreamer
