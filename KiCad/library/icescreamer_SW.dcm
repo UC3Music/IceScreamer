@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SW_TPDT
+D Switch, triple pole double throw
+K switch triple-pole double-throw tpdt ON-ON 3pdt
+$ENDCMP
+#
+#End Doc Library
