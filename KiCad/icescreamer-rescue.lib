@@ -1,36 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Barrel_Jack_Switch
+# +VDC
 #
-DEF Connector_Barrel_Jack_Switch J 0 20 Y N 1 F N
-F0 "J" 0 210 50 H V C CNN
-F1 "Connector_Barrel_Jack_Switch" 0 -200 50 H V C CNN
-F2 "" 50 -40 50 H I C CNN
-F3 "" 50 -40 50 H I C CNN
-$FPLIST
- BarrelJack*
-$ENDFPLIST
-DRAW
-A -130 100 25 901 -901 0 1 10 F -130 125 -130 75
-A -130 100 25 901 -901 0 1 10 N -130 125 -130 75
-S -200 150 200 -150 0 1 10 f
-S 145 125 -130 75 0 1 10 F
-P 2 0 1 10 50 -90 75 -65 N
-P 2 0 1 10 200 100 150 100 N
-P 4 0 1 10 200 0 50 0 50 -90 25 -65 N
-P 6 0 1 10 -150 -100 -100 -100 -50 -50 0 -100 100 -100 200 -100 N
-X ~ 1 300 100 100 L 50 50 1 1 P
-X ~ 2 300 -100 100 L 50 50 1 1 P
-X ~ 3 300 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# icescreamer-rescue_+VDC
-#
-DEF icescreamer-rescue_+VDC #PWR 0 0 Y Y 1 F P
+DEF +VDC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -100 50 H I C CNN
-F1 "icescreamer-rescue_+VDC" 0 250 50 H V C CNN
+F1 "+VDC" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -42,11 +17,11 @@ X +VDC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# icescreamer-rescue_-VDC
+# -VDC
 #
-DEF icescreamer-rescue_-VDC #PWR 0 0 Y Y 1 F P
+DEF -VDC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -100 50 H I C CNN
-F1 "icescreamer-rescue_-VDC" 0 250 50 H V C CNN
+F1 "-VDC" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -57,11 +32,11 @@ X -VDC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# icescreamer-rescue_2SC1815
+# 2SC1815
 #
-DEF icescreamer-rescue_2SC1815 Q 0 0 Y N 1 F N
+DEF 2SC1815 Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "icescreamer-rescue_2SC1815" 200 0 50 H V L CNN
+F1 "2SC1815" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -80,11 +55,11 @@ X B 3 -200 0 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# icescreamer-rescue_Audio-Jack-3_3Switches
+# Audio-Jack-3_3Switches
 #
-DEF icescreamer-rescue_Audio-Jack-3_3Switches J 0 40 Y Y 1 F N
+DEF Audio-Jack-3_3Switches J 0 40 Y Y 1 F N
 F0 "J" -50 300 50 H V C CNN
-F1 "icescreamer-rescue_Audio-Jack-3_3Switches" 120 -370 50 H V C CNN
+F1 "Audio-Jack-3_3Switches" 120 -370 50 H V C CNN
 F2 "" 250 100 50 H I C CNN
 F3 "" 250 100 50 H I C CNN
 DRAW
@@ -111,11 +86,11 @@ X ~ 6 200 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# icescreamer-rescue_Battery_Cell
+# Battery_Cell
 #
-DEF icescreamer-rescue_Battery_Cell BT 0 0 N N 1 F N
+DEF Battery_Cell BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "icescreamer-rescue_Battery_Cell" 100 0 50 H V L CNN
+F1 "Battery_Cell" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -130,11 +105,11 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# icescreamer-rescue_C
+# C
 #
-DEF icescreamer-rescue_C C 0 10 N Y 1 F N
+DEF C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "icescreamer-rescue_C" 25 -100 50 H V L CNN
+F1 "C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -148,11 +123,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# icescreamer-rescue_CP
+# CP
 #
-DEF icescreamer-rescue_CP C 0 10 N Y 1 F N
+DEF CP C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "icescreamer-rescue_CP" 25 -100 50 H V L CNN
+F1 "CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -171,11 +146,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# icescreamer-rescue_D
+# D
 #
-DEF icescreamer-rescue_D D 0 40 N N 1 F N
+DEF D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "icescreamer-rescue_D" 0 -100 50 H V C CNN
+F1 "D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -194,11 +169,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# icescreamer-rescue_D_Zener
+# D_Zener
 #
-DEF icescreamer-rescue_D_Zener D 0 40 N N 1 F N
+DEF D_Zener D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "icescreamer-rescue_D_Zener" 0 -100 50 H V C CNN
+F1 "D_Zener" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -217,11 +192,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# icescreamer-rescue_GNDREF
+# GNDREF
 #
-DEF icescreamer-rescue_GNDREF #PWR 0 0 Y Y 1 F P
+DEF GNDREF #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "icescreamer-rescue_GNDREF" 0 -150 50 H V C CNN
+F1 "GNDREF" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -233,11 +208,11 @@ X GNDREF 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# icescreamer-rescue_Jumper
+# Jumper
 #
-DEF icescreamer-rescue_Jumper JP 0 30 Y N 1 F N
+DEF Jumper JP 0 30 Y N 1 F N
 F0 "JP" 0 150 50 H V C CNN
-F1 "icescreamer-rescue_Jumper" 0 -80 50 H V C CNN
+F1 "Jumper" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -249,11 +224,11 @@ X 2 2 300 0 165 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# icescreamer-rescue_LED
+# LED
 #
-DEF icescreamer-rescue_LED D 0 40 Y N 1 F N
+DEF LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "icescreamer-rescue_LED" 0 -100 50 H V C CNN
+F1 "LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -270,11 +245,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# icescreamer-rescue_NE5532
+# NE5532
 #
-DEF icescreamer-rescue_NE5532 U 0 20 Y Y 2 F N
+DEF NE5532 U 0 20 Y Y 2 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "icescreamer-rescue_NE5532" 0 -200 50 H V L CNN
+F1 "NE5532" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -303,11 +278,11 @@ X ~ 7 300 0 100 L 50 50 2 1 O
 ENDDRAW
 ENDDEF
 #
-# icescreamer-rescue_POT
+# POT
 #
-DEF icescreamer-rescue_POT RV 0 40 N N 1 F N
+DEF POT RV 0 40 N N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "icescreamer-rescue_POT" -100 0 50 V V C CNN
+F1 "POT" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -323,11 +298,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# icescreamer-rescue_PWR_FLAG
+# PWR_FLAG
 #
-DEF icescreamer-rescue_PWR_FLAG #FLG 0 0 N N 1 F P
+DEF PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "icescreamer-rescue_PWR_FLAG" 0 150 50 H V C CNN
+F1 "PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -336,11 +311,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# icescreamer-rescue_Q_NJFET_SGD
+# Q_NJFET_SGD
 #
-DEF icescreamer-rescue_Q_NJFET_SGD Q 0 0 Y N 1 F N
+DEF Q_NJFET_SGD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "icescreamer-rescue_Q_NJFET_SGD" 200 -50 50 H V L CNN
+F1 "Q_NJFET_SGD" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -355,11 +330,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# icescreamer-rescue_R
+# R
 #
-DEF icescreamer-rescue_R R 0 0 N Y 1 F N
+DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "icescreamer-rescue_R" 0 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -373,11 +348,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# icescreamer-rescue_SW_Push
+# SW_Push
 #
-DEF icescreamer-rescue_SW_Push SW 0 40 N N 1 F N
+DEF SW_Push SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "icescreamer-rescue_SW_Push" 0 -60 50 H V C CNN
+F1 "SW_Push" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -390,11 +365,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# icescreamer-rescue_SW_TPDT
+# SW_TPDT
 #
-DEF icescreamer-rescue_SW_TPDT SW 0 0 Y N 1 F N
+DEF SW_TPDT SW 0 0 Y N 1 F N
 F0 "SW" -175 200 50 H V C CNN
-F1 "icescreamer-rescue_SW_TPDT" 300 200 50 H V C CNN
+F1 "SW_TPDT" 300 200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
