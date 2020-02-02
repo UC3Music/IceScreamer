@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name icescreamer-rescue)(type Legacy)(uri ${KIPRJMOD}/icescreamer-rescue.lib)(options "")(descr ""))
+  (lib (name sw_tpdt)(type Legacy)(uri ${KIPRJMOD}/library/sw_tpdt.lib)(options "")(descr ""))
+  (lib (name icescreamer_SW)(type Legacy)(uri ${KIPRJMOD}/library/icescreamer_SW.lib)(options "")(descr ""))
+)
