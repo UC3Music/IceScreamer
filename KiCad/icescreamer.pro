@@ -1,4 +1,4 @@
-update=mar 28 ene 2020 14:58:52 CET
+update=dom 02 feb 2020 15:26:20 CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -64,7 +64,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.2
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -236,6 +236,17 @@ Enabled=0
 Name=Default
 Clearance=0.2
 TrackWidth=0.25
+ViaDiameter=0.6
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=Power
+Clearance=0.2
+TrackWidth=0.5
 ViaDiameter=0.6
 ViaDrill=0.4
 uViaDiameter=0.3

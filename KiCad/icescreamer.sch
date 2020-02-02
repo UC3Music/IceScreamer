@@ -617,7 +617,7 @@ U 1 1 5A2E8D15
 P 7200 5800
 F 0 "D4" H 7200 5900 50  0000 C CNN
 F 1 "LED" H 7200 5700 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7200 5800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 7200 5800 50  0001 C CNN
 F 3 "" H 7200 5800 50  0001 C CNN
 	1    7200 5800
 	0    -1   -1   0   
@@ -847,19 +847,19 @@ $EndComp
 $Comp
 L icescreamer-rescue:D D1
 U 1 1 5A2F0B86
-P 8700 1200
-F 0 "D1" H 8700 1300 50  0000 C CNN
-F 1 "D" H 8700 1100 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 8700 1200 50  0001 C CNN
-F 3 "" H 8700 1200 50  0001 C CNN
-	1    8700 1200
+P 8600 1200
+F 0 "D1" H 8350 1200 50  0000 C CNN
+F 1 "D" H 8700 1200 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 8600 1200 50  0001 C CNN
+F 3 "" H 8600 1200 50  0001 C CNN
+	1    8600 1200
 	0    1    1    0   
 $EndComp
 $Comp
 L icescreamer-rescue:CP C1
 U 1 1 5A2F0C57
 P 9000 1200
-F 0 "C1" H 9025 1300 50  0000 L CNN
+F 0 "C1" H 9050 1300 50  0000 L CNN
 F 1 "CP" H 9025 1100 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 9038 1050 50  0001 C CNN
 F 3 "" H 9000 1200 50  0001 C CNN
@@ -891,12 +891,12 @@ $EndComp
 $Comp
 L icescreamer-rescue:CP C2
 U 1 1 5A2F1049
-P 9900 1350
-F 0 "C2" H 9925 1450 50  0000 L CNN
-F 1 "CP" H 9925 1250 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 9938 1200 50  0001 C CNN
-F 3 "" H 9900 1350 50  0001 C CNN
-	1    9900 1350
+P 9850 1350
+F 0 "C2" H 9875 1450 50  0000 L CNN
+F 1 "CP" H 9875 1250 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 9888 1200 50  0001 C CNN
+F 3 "" H 9850 1350 50  0001 C CNN
+	1    9850 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1211,17 +1211,6 @@ F 3 "" H 9600 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:GNDREF #PWR034
-U 1 1 5A342630
-P 10200 1200
-F 0 "#PWR034" H 10200 950 50  0001 C CNN
-F 1 "GNDREF" H 10200 1050 50  0000 C CNN
-F 2 "" H 10200 1200 50  0001 C CNN
-F 3 "" H 10200 1200 50  0001 C CNN
-	1    10200 1200
-	1    0    0    -1  
-$EndComp
-$Comp
 L icescreamer-rescue:-VDC #PWR035
 U 1 1 5A3426E7
 P 9600 1500
@@ -1246,12 +1235,12 @@ $EndComp
 $Comp
 L icescreamer-rescue:PWR_FLAG #FLG037
 U 1 1 5A342963
-P 10200 1200
-F 0 "#FLG037" H 10200 1275 50  0001 C CNN
-F 1 "PWR_FLAG" H 10200 1350 50  0000 C CNN
-F 2 "" H 10200 1200 50  0001 C CNN
-F 3 "" H 10200 1200 50  0001 C CNN
-	1    10200 1200
+P 10500 900
+F 0 "#FLG037" H 10500 975 50  0001 C CNN
+F 1 "PWR_FLAG" H 10500 1050 50  0000 C CNN
+F 2 "" H 10500 900 50  0001 C CNN
+F 3 "" H 10500 900 50  0001 C CNN
+	1    10500 900 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1265,7 +1254,6 @@ F 3 "" H 9300 1500 50  0001 C CNN
 	1    9300 1500
 	-1   0    0    1   
 $EndComp
-Connection ~ 9900 1200
 Connection ~ 8350 2650
 Wire Wire Line
 	8150 2400 8150 2500
@@ -1508,12 +1496,9 @@ Wire Wire Line
 Wire Wire Line
 	9000 1500 9300 1500
 Wire Wire Line
-	8700 1350 9000 1350
-Wire Wire Line
 	9000 900  9300 900 
 Wire Wire Line
 	9000 1050 9000 900 
-Connection ~ 8700 1050
 Wire Wire Line
 	7200 5950 7200 6050
 Wire Wire Line
@@ -1536,8 +1521,6 @@ Wire Wire Line
 	9200 5750 8950 5750
 Wire Wire Line
 	8950 6050 9000 6050
-Wire Wire Line
-	9900 1200 10200 1200
 Wire Wire Line
 	8350 2650 8650 2650
 Wire Wire Line
@@ -1597,13 +1580,11 @@ Wire Wire Line
 Wire Wire Line
 	9300 900  9600 900 
 Wire Wire Line
-	9600 1200 9900 1200
+	9600 1200 9850 1200
 Wire Wire Line
-	9600 1500 9900 1500
+	9600 1500 9850 1500
 Wire Wire Line
 	9300 1500 9600 1500
-Wire Wire Line
-	8700 1050 9000 1050
 $Comp
 L icescreamer-rescue:NE5532 U1
 U 1 1 5A2D7FAB
@@ -1819,7 +1800,6 @@ Connection ~ 9000 1050
 Connection ~ 9000 1350
 Connection ~ 9300 1200
 Connection ~ 9600 900 
-Connection ~ 10200 1200
 Wire Wire Line
 	8000 1400 8000 1600
 Wire Wire Line
@@ -1832,7 +1812,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 1200 8000 1050
 Wire Wire Line
-	8000 1050 8700 1050
+	8000 1050 8600 1050
 $Comp
 L icescreamer-rescue:+VDC #PWR0102
 U 1 1 5E4DEDC6
@@ -1880,4 +1860,111 @@ $EndComp
 Text GLabel 3500 2450 3    60   Input ~ 0
 PSEUDO_IN_1
 Connection ~ 7250 2400
+$Comp
+L icescreamer-rescue:C C14
+U 1 1 5E4A17DA
+P 10100 1350
+F 0 "C14" H 10125 1450 50  0000 L CNN
+F 1 "C" H 10125 1250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10138 1200 50  0001 C CNN
+F 3 "" H 10100 1350 50  0001 C CNN
+	1    10100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L icescreamer-rescue:C C15
+U 1 1 5E4A1E61
+P 10300 1350
+F 0 "C15" H 10325 1450 50  0000 L CNN
+F 1 "C" H 10325 1250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10338 1200 50  0001 C CNN
+F 3 "" H 10300 1350 50  0001 C CNN
+	1    10300 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L icescreamer-rescue:C C16
+U 1 1 5E4A2346
+P 8800 1200
+F 0 "C16" H 8750 1450 50  0000 L CNN
+F 1 "C" H 8825 1100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8838 1050 50  0001 C CNN
+F 3 "" H 8800 1200 50  0001 C CNN
+	1    8800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L icescreamer-rescue:GNDREF #PWR034
+U 1 1 5A342630
+P 10500 900
+F 0 "#PWR034" H 10500 650 50  0001 C CNN
+F 1 "GNDREF" H 10500 750 50  0000 C CNN
+F 2 "" H 10500 900 50  0001 C CNN
+F 3 "" H 10500 900 50  0001 C CNN
+	1    10500 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L icescreamer-rescue:C C17
+U 1 1 5E4CF043
+P 10500 1350
+F 0 "C17" H 10525 1450 50  0000 L CNN
+F 1 "C" H 10525 1250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10538 1200 50  0001 C CNN
+F 3 "" H 10500 1350 50  0001 C CNN
+	1    10500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L icescreamer-rescue:C C18
+U 1 1 5E4CF526
+P 10700 1350
+F 0 "C18" H 10725 1450 50  0000 L CNN
+F 1 "C" H 10725 1250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10738 1200 50  0001 C CNN
+F 3 "" H 10700 1350 50  0001 C CNN
+	1    10700 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 1500 10300 1500
+Connection ~ 10100 1500
+Connection ~ 10300 1500
+Wire Wire Line
+	10100 1200 10300 1200
+Connection ~ 10100 1200
+Connection ~ 10300 1200
+Wire Wire Line
+	10700 900  10500 900 
+Connection ~ 10500 900 
+Connection ~ 9850 1200
+Connection ~ 9850 1500
+Wire Wire Line
+	9850 1500 10100 1500
+Wire Wire Line
+	9850 1200 10100 1200
+Wire Wire Line
+	10300 1200 10500 1200
+Wire Wire Line
+	10300 1500 10500 1500
+Connection ~ 10500 1200
+Wire Wire Line
+	10500 1200 10700 1200
+Connection ~ 10500 1500
+Wire Wire Line
+	10500 1500 10700 1500
+Wire Wire Line
+	10700 1200 10700 900 
+Connection ~ 10700 1200
+Connection ~ 8600 1050
+Wire Wire Line
+	8600 1050 8800 1050
+Wire Wire Line
+	8600 1350 8800 1350
+Connection ~ 8800 1050
+Wire Wire Line
+	8800 1050 9000 1050
+Connection ~ 8800 1350
+Wire Wire Line
+	8800 1350 9000 1350
 $EndSCHEMATC
