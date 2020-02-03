@@ -49,17 +49,6 @@ F 3 "" H 3200 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:2SC1815 Q1
-U 1 1 5A2D758C
-P 3550 2200
-F 0 "Q1" H 3750 2275 50  0000 L CNN
-F 1 "2SC1815" H 3750 2200 50  0000 L CNN
-F 2 "drawdio:TO-92_SOT23_JorFru_compact" H 3750 2125 50  0001 L CIN
-F 3 "" H 3550 2200 50  0001 L CNN
-	1    3550 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L icescreamer-rescue:+VDC #PWR01
 U 1 1 5A2D760B
 P 3650 1850
@@ -469,17 +458,6 @@ F 3 "" H 2050 5200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:2SC1815 Q20
-U 1 1 5A2E7B18
-P 2600 5400
-F 0 "Q20" H 2800 5475 50  0000 L CNN
-F 1 "2SC1815" H 2800 5400 50  0000 L CNN
-F 2 "drawdio:TO-92_SOT23_JorFru_compact" H 2800 5325 50  0001 L CIN
-F 3 "" H 2600 5400 50  0001 L CNN
-	1    2600 5400
-	-1   0    0    -1  
-$EndComp
-$Comp
 L icescreamer-rescue:R R30
 U 1 1 5A2E7BF1
 P 2950 5700
@@ -568,17 +546,6 @@ F 3 "" H 2950 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:2SC1815 Q21
-U 1 1 5A2E84FA
-P 4250 5400
-F 0 "Q21" H 4450 5475 50  0000 L CNN
-F 1 "2SC1815" H 4450 5400 50  0000 L CNN
-F 2 "drawdio:TO-92_SOT23_JorFru_compact" H 4450 5325 50  0001 L CIN
-F 3 "" H 4250 5400 50  0001 L CNN
-	1    4250 5400
-	1    0    0    -1  
-$EndComp
-$Comp
 L icescreamer-rescue:R R33
 U 1 1 5A2E8627
 P 4700 5700
@@ -643,17 +610,6 @@ F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 5300 6050 50  0001 C CNN
 F 3 "" H 5300 6050 50  0001 C CNN
 	1    5300 6050
 	0    1    1    0   
-$EndComp
-$Comp
-L icescreamer-rescue:2SC1815 Q22
-U 1 1 5A2E9060
-P 5200 6450
-F 0 "Q22" H 5400 6525 50  0000 L CNN
-F 1 "2SC1815" H 5400 6450 50  0000 L CNN
-F 2 "drawdio:TO-92_SOT23_JorFru_compact" H 5400 6375 50  0001 L CIN
-F 3 "" H 5200 6450 50  0001 L CNN
-	1    5200 6450
-	1    0    0    -1  
 $EndComp
 $Comp
 L icescreamer-rescue:D D22
@@ -1070,17 +1026,6 @@ F 3 "" H 9600 3350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:2SC1815 Q2
-U 1 1 5A317C1E
-P 9500 2650
-F 0 "Q2" H 9700 2725 50  0000 L CNN
-F 1 "2SC1815" H 9700 2650 50  0000 L CNN
-F 2 "drawdio:TO-92_SOT23_JorFru_compact" H 9700 2575 50  0001 L CIN
-F 3 "" H 9500 2650 50  0001 L CNN
-	1    9500 2650
-	1    0    0    -1  
-$EndComp
-$Comp
 L icescreamer-rescue:R R15
 U 1 1 5A31884E
 P 9600 3100
@@ -1290,9 +1235,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 6450 4700 6450
 Connection ~ 4700 5200
-Connection ~ 4350 5200
-Wire Wire Line
-	4050 5200 4350 5200
 Wire Wire Line
 	4050 5000 4050 5200
 Wire Wire Line
@@ -1333,7 +1275,6 @@ Wire Wire Line
 	3250 5400 2950 5400
 Wire Wire Line
 	2800 5200 2800 5000
-Connection ~ 2500 5200
 Connection ~ 1750 5200
 Wire Wire Line
 	1750 5350 1750 5200
@@ -1469,9 +1410,6 @@ Wire Wire Line
 Connection ~ 3800 2400
 Wire Wire Line
 	3800 2400 3800 2450
-Connection ~ 3650 2400
-Wire Wire Line
-	3500 2400 3650 2400
 Wire Wire Line
 	3500 2450 3500 2400
 Wire Wire Line
@@ -1528,15 +1466,11 @@ Wire Wire Line
 Wire Wire Line
 	4700 5200 4850 5200
 Wire Wire Line
-	4350 5200 4700 5200
-Wire Wire Line
 	4350 6650 5300 6650
 Wire Wire Line
 	3900 5400 4050 5400
 Wire Wire Line
 	2950 5400 2800 5400
-Wire Wire Line
-	2500 5200 2800 5200
 Wire Wire Line
 	1750 5200 1900 5200
 Wire Wire Line
@@ -1573,8 +1507,6 @@ Wire Wire Line
 	4550 1150 4600 1150
 Wire Wire Line
 	3800 2400 4000 2400
-Wire Wire Line
-	3650 2400 3800 2400
 Wire Wire Line
 	3200 2200 3350 2200
 Wire Wire Line
@@ -1711,8 +1643,6 @@ Text GLabel 5000 3750 2    60   Input ~ 0
 PSEUDO_IN_2
 Text GLabel 1400 3750 0    60   Input ~ 0
 PSEUDO_IN_1
-Wire Wire Line
-	2350 5200 2500 5200
 Wire Wire Line
 	2200 5200 2350 5200
 Connection ~ 2350 5200
@@ -1967,4 +1897,76 @@ Wire Wire Line
 Connection ~ 8800 1350
 Wire Wire Line
 	8800 1350 9000 1350
+$Comp
+L Transistor_BJT:BC547 Q1
+U 1 1 5E39C402
+P 3550 2200
+F 0 "Q1" H 3741 2246 50  0000 L CNN
+F 1 "BC547" H 3741 2155 50  0000 L CNN
+F 2 "IceScreamer:TO-92_SOT23_JorFru_compact" H 3750 2125 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 3550 2200 50  0001 L CNN
+	1    3550 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2400 3650 2400
+Connection ~ 3650 2400
+Wire Wire Line
+	3650 2400 3800 2400
+$Comp
+L Transistor_BJT:BC547 Q2
+U 1 1 5E3ADD8B
+P 9500 2650
+F 0 "Q2" H 9691 2696 50  0000 L CNN
+F 1 "BC547" H 9691 2605 50  0000 L CNN
+F 2 "IceScreamer:TO-92_SOT23_JorFru_compact" H 9700 2575 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 9500 2650 50  0001 L CNN
+	1    9500 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 9600 2850
+$Comp
+L Transistor_BJT:BC547 Q22
+U 1 1 5E3B2793
+P 5200 6450
+F 0 "Q22" H 5391 6496 50  0000 L CNN
+F 1 "BC547" H 5391 6405 50  0000 L CNN
+F 2 "IceScreamer:TO-92_SOT23_JorFru_compact" H 5400 6375 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 5200 6450 50  0001 L CNN
+	1    5200 6450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 6650
+$Comp
+L Transistor_BJT:BC547 Q21
+U 1 1 5E3BA1E3
+P 4250 5400
+F 0 "Q21" H 4441 5446 50  0000 L CNN
+F 1 "BC547" H 4441 5355 50  0000 L CNN
+F 2 "IceScreamer:TO-92_SOT23_JorFru_compact" H 4450 5325 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 4250 5400 50  0001 L CNN
+	1    4250 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 5200 4350 5200
+Connection ~ 4350 5200
+Wire Wire Line
+	4350 5200 4700 5200
+$Comp
+L Transistor_BJT:BC547 Q20
+U 1 1 5E3C4791
+P 2600 5400
+F 0 "Q20" H 2791 5446 50  0000 L CNN
+F 1 "BC547" H 2791 5355 50  0000 L CNN
+F 2 "IceScreamer:TO-92_SOT23_JorFru_compact" H 2800 5325 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 2600 5400 50  0001 L CNN
+	1    2600 5400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 5200 2500 5200
+Connection ~ 2500 5200
+Wire Wire Line
+	2500 5200 2800 5200
 $EndSCHEMATC
