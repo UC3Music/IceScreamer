@@ -16,7 +16,7 @@ $EndDescr
 Text GLabel 2000 2200 0    60   Input ~ 0
 EFF_IN
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C5
+L icescreamer-rescue:C C5
 U 1 1 5A2D751C
 P 2400 2200
 F 0 "C5" H 2425 2300 50  0000 L CNN
@@ -27,7 +27,7 @@ F 3 "" H 2400 2200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R3
+L icescreamer-rescue:R R3
 U 1 1 5A2D7544
 P 2900 2200
 F 0 "R3" V 2980 2200 50  0000 C CNN
@@ -38,7 +38,7 @@ F 3 "" H 2900 2200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R4
+L icescreamer-rescue:R R4
 U 1 1 5A2D7563
 P 3200 2450
 F 0 "R4" V 3280 2450 50  0000 C CNN
@@ -49,7 +49,7 @@ F 3 "" H 3200 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:+VDC-icescreamer-rescue #PWR01
+L icescreamer-rescue:+VDC #PWR01
 U 1 1 5A2D760B
 P 3650 1850
 F 0 "#PWR01" H 3650 1750 50  0001 C CNN
@@ -60,7 +60,7 @@ F 3 "" H 3650 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R5
+L icescreamer-rescue:R R5
 U 1 1 5A2D79C6
 P 3800 2600
 F 0 "R5" V 3880 2600 50  0000 C CNN
@@ -71,7 +71,7 @@ F 3 "" H 3800 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C6
+L icescreamer-rescue:C C6
 U 1 1 5A2D79F1
 P 4150 2400
 F 0 "C6" H 4175 2500 50  0000 L CNN
@@ -82,7 +82,7 @@ F 3 "" H 4150 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R6
+L icescreamer-rescue:R R6
 U 1 1 5A2D7A2E
 P 4400 2600
 F 0 "R6" V 4500 2600 50  0000 C CNN
@@ -93,7 +93,7 @@ F 3 "" H 4400 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR02
+L icescreamer-rescue:-VDC #PWR02
 U 1 1 5A2D7DB0
 P 3800 2900
 F 0 "#PWR02" H 3800 2800 50  0001 C CNN
@@ -104,7 +104,7 @@ F 3 "" H 3800 2900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:GNDREF-icescreamer-rescue #PWR04
+L icescreamer-rescue:GNDREF #PWR04
 U 1 1 5A2D801A
 P 4400 2900
 F 0 "#PWR04" H 4400 2650 50  0001 C CNN
@@ -115,7 +115,7 @@ F 3 "" H 4400 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:+VDC-icescreamer-rescue #PWR05
+L icescreamer-rescue:+VDC #PWR05
 U 1 1 5A2D8054
 P 6850 2100
 F 0 "#PWR05" H 6850 2000 50  0001 C CNN
@@ -126,7 +126,7 @@ F 3 "" H 6850 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C7
+L icescreamer-rescue:C C7
 U 1 1 5A2D80A9
 P 4750 1800
 F 0 "C7" H 4775 1900 50  0000 L CNN
@@ -137,7 +137,7 @@ F 3 "" H 4750 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:D-icescreamer-rescue D2
+L icescreamer-rescue:D D2
 U 1 1 5A2D80DE
 P 4750 1450
 F 0 "D2" H 4750 1550 50  0000 C CNN
@@ -148,7 +148,7 @@ F 3 "" H 4750 1450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:D-icescreamer-rescue D3
+L icescreamer-rescue:D D3
 U 1 1 5A2D8115
 P 4750 1150
 F 0 "D3" H 4750 1250 50  0000 C CNN
@@ -159,7 +159,7 @@ F 3 "" H 4750 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R7
+L icescreamer-rescue:R R7
 U 1 1 5A2D8149
 P 4750 800
 F 0 "R7" V 4830 800 50  0000 C CNN
@@ -170,7 +170,7 @@ F 3 "" H 4750 800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C8
+L icescreamer-rescue:C C8
 U 1 1 5A2D81B4
 P 4250 1150
 F 0 "C8" H 4275 1250 50  0000 L CNN
@@ -181,7 +181,7 @@ F 3 "" H 4250 1150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R8
+L icescreamer-rescue:R R8
 U 1 1 5A2D8213
 P 3750 1150
 F 0 "R8" V 3830 1150 50  0000 C CNN
@@ -192,7 +192,7 @@ F 3 "" H 3750 1150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:GNDREF-icescreamer-rescue #PWR06
+L icescreamer-rescue:GNDREF #PWR06
 U 1 1 5A2D8273
 P 3400 1150
 F 0 "#PWR06" H 3400 900 50  0001 C CNN
@@ -203,7 +203,7 @@ F 3 "" H 3400 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:POT-icescreamer-rescue POT1
+L icescreamer-rescue:POT POT1
 U 1 1 5A2D829C
 P 5100 950
 F 0 "POT1" V 4925 950 50  0000 C CNN
@@ -214,7 +214,7 @@ F 3 "" H 5100 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R9
+L icescreamer-rescue:R R9
 U 1 1 5A2D8615
 P 5450 2300
 F 0 "R9" V 5530 2300 50  0000 C CNN
@@ -225,7 +225,7 @@ F 3 "" H 5450 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R10
+L icescreamer-rescue:R R10
 U 1 1 5A2D866D
 P 5750 2550
 F 0 "R10" V 5830 2550 50  0000 C CNN
@@ -236,7 +236,7 @@ F 3 "" H 5750 2550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C9
+L icescreamer-rescue:C C9
 U 1 1 5A2D86C8
 P 6100 2550
 F 0 "C9" H 6125 2650 50  0000 L CNN
@@ -247,7 +247,7 @@ F 3 "" H 6100 2550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:POT-icescreamer-rescue POT2
+L icescreamer-rescue:POT POT2
 U 1 1 5A2D882A
 P 6500 2900
 F 0 "POT2" V 6325 2900 50  0000 C CNN
@@ -258,7 +258,7 @@ F 3 "" H 6500 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R11
+L icescreamer-rescue:R R11
 U 1 1 5A2D8951
 P 7100 2900
 F 0 "R11" V 7180 2900 50  0000 C CNN
@@ -269,7 +269,7 @@ F 3 "" H 7100 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C10
+L icescreamer-rescue:C C10
 U 1 1 5A2D89C8
 P 6750 3200
 F 0 "C10" H 6775 3300 50  0000 L CNN
@@ -280,7 +280,7 @@ F 3 "" H 6750 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R12
+L icescreamer-rescue:R R12
 U 1 1 5A2D8A3A
 P 7250 3200
 F 0 "R12" V 7330 3200 50  0000 C CNN
@@ -291,7 +291,7 @@ F 3 "" H 7250 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR07
+L icescreamer-rescue:-VDC #PWR07
 U 1 1 5A2D8AB2
 P 7550 3200
 F 0 "#PWR07" H 7550 3100 50  0001 C CNN
@@ -302,7 +302,7 @@ F 3 "" H 7550 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR08
+L icescreamer-rescue:-VDC #PWR08
 U 1 1 5A2D8B02
 P 6100 2900
 F 0 "#PWR08" H 6100 2800 50  0001 C CNN
@@ -313,7 +313,7 @@ F 3 "" H 6100 2900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:GNDREF-icescreamer-rescue #PWR09
+L icescreamer-rescue:GNDREF #PWR09
 U 1 1 5A2D8B80
 P 5750 2900
 F 0 "#PWR09" H 5750 2650 50  0001 C CNN
@@ -324,7 +324,7 @@ F 3 "" H 5750 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C11
+L icescreamer-rescue:C C11
 U 1 1 5A2D8D20
 P 7500 2400
 F 0 "C11" H 7525 2500 50  0000 L CNN
@@ -335,7 +335,7 @@ F 3 "" H 7500 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R13
+L icescreamer-rescue:R R13
 U 1 1 5A2D8E49
 P 7900 2400
 F 0 "R13" V 7980 2400 50  0000 C CNN
@@ -346,7 +346,7 @@ F 3 "" H 7900 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:POT-icescreamer-rescue POT3
+L icescreamer-rescue:POT POT3
 U 1 1 5A2D8EBA
 P 8150 2650
 F 0 "POT3" V 7975 2650 50  0000 C CNN
@@ -357,7 +357,7 @@ F 3 "" H 8150 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C12
+L icescreamer-rescue:C C12
 U 1 1 5A2D9473
 P 9000 2650
 F 0 "C12" H 9025 2750 50  0000 L CNN
@@ -368,7 +368,7 @@ F 3 "" H 9000 2650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R14
+L icescreamer-rescue:R R14
 U 1 1 5A2D9587
 P 9200 3100
 F 0 "R14" V 9280 3100 50  0000 C CNN
@@ -379,7 +379,7 @@ F 3 "" H 9200 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:GNDREF-icescreamer-rescue #PWR011
+L icescreamer-rescue:GNDREF #PWR011
 U 1 1 5A2D968B
 P 9200 3350
 F 0 "#PWR011" H 9200 3100 50  0001 C CNN
@@ -392,7 +392,7 @@ $EndComp
 Text GLabel 10550 2850 2    60   Input ~ 0
 EFF_OUT
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R27
+L icescreamer-rescue:R R27
 U 1 1 5A2E7490
 P 1450 6250
 F 0 "R27" V 1530 6250 50  0000 C CNN
@@ -403,7 +403,7 @@ F 3 "" H 1450 6250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:SW_Push-icescreamer-rescue SW20
+L icescreamer-rescue:SW_Push SW20
 U 1 1 5A2E753C
 P 1100 6600
 F 0 "SW20" H 1150 6700 50  0000 L CNN
@@ -414,7 +414,7 @@ F 3 "" H 1100 6800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R26
+L icescreamer-rescue:R R26
 U 1 1 5A2E75D7
 P 1750 6000
 F 0 "R26" V 1830 6000 50  0000 C CNN
@@ -425,7 +425,7 @@ F 3 "" H 1750 6000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R24
+L icescreamer-rescue:R R24
 U 1 1 5A2E7673
 P 1750 5500
 F 0 "R24" V 1830 5500 50  0000 C CNN
@@ -436,7 +436,7 @@ F 3 "" H 1750 5500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R25
+L icescreamer-rescue:R R25
 U 1 1 5A2E76F5
 P 1450 5750
 F 0 "R25" V 1530 5750 50  0000 C CNN
@@ -447,7 +447,7 @@ F 3 "" H 1450 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R23
+L icescreamer-rescue:R R23
 U 1 1 5A2E777A
 P 2050 5200
 F 0 "R23" V 2130 5200 50  0000 C CNN
@@ -458,7 +458,7 @@ F 3 "" H 2050 5200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R30
+L icescreamer-rescue:R R30
 U 1 1 5A2E7BF1
 P 2950 5700
 F 0 "R30" V 3030 5700 50  0000 C CNN
@@ -469,7 +469,7 @@ F 3 "" H 2950 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C24
+L icescreamer-rescue:C C24
 U 1 1 5A2E7C92
 P 3900 5200
 F 0 "C24" H 3925 5300 50  0000 L CNN
@@ -480,7 +480,7 @@ F 3 "" H 3900 5200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R29
+L icescreamer-rescue:R R29
 U 1 1 5A2E7D46
 P 3900 5000
 F 0 "R29" V 3980 5000 50  0000 C CNN
@@ -491,7 +491,7 @@ F 3 "" H 3900 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C25
+L icescreamer-rescue:C C25
 U 1 1 5A2E7DDD
 P 3250 5700
 F 0 "C25" H 3275 5800 50  0000 L CNN
@@ -502,7 +502,7 @@ F 3 "" H 3250 5700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C26
+L icescreamer-rescue:C C26
 U 1 1 5A2E7E85
 P 3600 5700
 F 0 "C26" H 3625 5800 50  0000 L CNN
@@ -513,7 +513,7 @@ F 3 "" H 3600 5700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R31
+L icescreamer-rescue:R R31
 U 1 1 5A2E7F1E
 P 3900 5700
 F 0 "R31" V 3980 5700 50  0000 C CNN
@@ -524,7 +524,7 @@ F 3 "" H 3900 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C23
+L icescreamer-rescue:C C23
 U 1 1 5A2E8296
 P 2950 5200
 F 0 "C23" H 2975 5300 50  0000 L CNN
@@ -535,7 +535,7 @@ F 3 "" H 2950 5200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R28
+L icescreamer-rescue:R R28
 U 1 1 5A2E836A
 P 2950 5000
 F 0 "R28" V 3030 5000 50  0000 C CNN
@@ -546,7 +546,7 @@ F 3 "" H 2950 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R33
+L icescreamer-rescue:R R33
 U 1 1 5A2E8627
 P 4700 5700
 F 0 "R33" V 4780 5700 50  0000 C CNN
@@ -557,7 +557,7 @@ F 3 "" H 4700 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R32
+L icescreamer-rescue:R R32
 U 1 1 5A2E8741
 P 4700 4900
 F 0 "R32" V 4780 4900 50  0000 C CNN
@@ -568,7 +568,7 @@ F 3 "" H 4700 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R34
+L icescreamer-rescue:R R34
 U 1 1 5A2E8C11
 P 5000 5200
 F 0 "R34" V 5080 5200 50  0000 C CNN
@@ -579,7 +579,7 @@ F 3 "" H 5000 5200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:LED-icescreamer-rescue D4
+L icescreamer-rescue:LED D4
 U 1 1 5A2E8D15
 P 7200 5800
 F 0 "D4" H 7200 5900 50  0000 C CNN
@@ -590,7 +590,7 @@ F 3 "" H 7200 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R35
+L icescreamer-rescue:R R35
 U 1 1 5A2E8DDF
 P 5300 5700
 F 0 "R35" V 5380 5700 50  0000 C CNN
@@ -601,7 +601,7 @@ F 3 "" H 5300 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:D_Zener-icescreamer-rescue D23
+L icescreamer-rescue:D_Zener D23
 U 1 1 5A2E8ED7
 P 5300 6050
 F 0 "D23" H 5300 6150 50  0000 C CNN
@@ -612,7 +612,7 @@ F 3 "" H 5300 6050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:D-icescreamer-rescue D22
+L icescreamer-rescue:D D22
 U 1 1 5A2E91D0
 P 5300 6850
 F 0 "D22" H 5300 6950 50  0000 C CNN
@@ -623,7 +623,7 @@ F 3 "" H 5300 6850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R36
+L icescreamer-rescue:R R36
 U 1 1 5A2E93E8
 P 5300 7200
 F 0 "R36" V 5380 7200 50  0000 C CNN
@@ -634,7 +634,7 @@ F 3 "" H 5300 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C22
+L icescreamer-rescue:C C22
 U 1 1 5A2EA6FE
 P 1750 6500
 F 0 "C22" H 1775 6600 50  0000 L CNN
@@ -645,7 +645,7 @@ F 3 "" H 1750 6500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR012
+L icescreamer-rescue:-VDC #PWR012
 U 1 1 5A2EA790
 P 1100 6900
 F 0 "#PWR012" H 1100 6800 50  0001 C CNN
@@ -656,7 +656,7 @@ F 3 "" H 1100 6900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR013
+L icescreamer-rescue:-VDC #PWR013
 U 1 1 5A2EA853
 P 1750 6900
 F 0 "#PWR013" H 1750 6800 50  0001 C CNN
@@ -667,7 +667,7 @@ F 3 "" H 1750 6900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR014
+L icescreamer-rescue:-VDC #PWR014
 U 1 1 5A2EAAE7
 P 5300 7400
 F 0 "#PWR014" H 5300 7300 50  0001 C CNN
@@ -678,7 +678,7 @@ F 3 "" H 5300 7400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR015
+L icescreamer-rescue:-VDC #PWR015
 U 1 1 5A2EADF1
 P 1200 5750
 F 0 "#PWR015" H 1200 5650 50  0001 C CNN
@@ -689,7 +689,7 @@ F 3 "" H 1200 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:+VDC-icescreamer-rescue #PWR017
+L icescreamer-rescue:+VDC #PWR017
 U 1 1 5A2EB01C
 P 1200 5200
 F 0 "#PWR017" H 1200 5100 50  0001 C CNN
@@ -700,7 +700,7 @@ F 3 "" H 1200 5200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:GNDREF-icescreamer-rescue #PWR018
+L icescreamer-rescue:GNDREF #PWR018
 U 1 1 5A2EB155
 P 3200 2950
 F 0 "#PWR018" H 3200 2700 50  0001 C CNN
@@ -711,7 +711,7 @@ F 3 "" H 3200 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR019
+L icescreamer-rescue:-VDC #PWR019
 U 1 1 5A2EB287
 P 2950 5950
 F 0 "#PWR019" H 2950 5850 50  0001 C CNN
@@ -722,7 +722,7 @@ F 3 "" H 2950 5950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR020
+L icescreamer-rescue:-VDC #PWR020
 U 1 1 5A2EB3B9
 P 3900 5950
 F 0 "#PWR020" H 3900 5850 50  0001 C CNN
@@ -733,7 +733,7 @@ F 3 "" H 3900 5950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:+VDC-icescreamer-rescue #PWR022
+L icescreamer-rescue:+VDC #PWR022
 U 1 1 5A2EB658
 P 5300 5100
 F 0 "#PWR022" H 5300 5000 50  0001 C CNN
@@ -744,7 +744,7 @@ F 3 "" H 5300 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:Q_NJFET_SGD-icescreamer-rescue Q23
+L icescreamer-rescue:Q_NJFET_SGD Q23
 U 1 1 5A2ED602
 P 2350 3850
 F 0 "Q23" V 2250 3950 50  0000 L CNN
@@ -755,7 +755,7 @@ F 3 "" H 2350 3850 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:Q_NJFET_SGD-icescreamer-rescue Q24
+L icescreamer-rescue:Q_NJFET_SGD Q24
 U 1 1 5A2ED7E1
 P 4700 3850
 F 0 "Q24" V 4600 3950 50  0000 L CNN
@@ -766,7 +766,7 @@ F 3 "" H 4700 3850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R21
+L icescreamer-rescue:R R21
 U 1 1 5A2EE987
 P 3500 4000
 F 0 "R21" V 3580 4000 50  0000 C CNN
@@ -777,7 +777,7 @@ F 3 "" H 3500 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:GNDREF-icescreamer-rescue #PWR023
+L icescreamer-rescue:GNDREF #PWR023
 U 1 1 5A2EEA89
 P 3500 4250
 F 0 "#PWR023" H 3500 4000 50  0001 C CNN
@@ -790,7 +790,7 @@ $EndComp
 Text GLabel 3500 3600 2    60   Input ~ 0
 PSEUDO_OUT
 $Comp
-L icescreamer-rescue:Battery_Cell-icescreamer-rescue BT1
+L icescreamer-rescue:Battery_Cell BT1
 U 1 1 5A2F0AE3
 P 8250 1500
 F 0 "BT1" H 8300 1450 50  0000 L CNN
@@ -801,7 +801,7 @@ F 3 "" V 8250 1560 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:D-icescreamer-rescue D1
+L icescreamer-rescue:D D1
 U 1 1 5A2F0B86
 P 8600 1200
 F 0 "D1" H 8350 1200 50  0000 C CNN
@@ -812,7 +812,7 @@ F 3 "" H 8600 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:CP-icescreamer-rescue C1
+L icescreamer-rescue:CP C1
 U 1 1 5A2F0C57
 P 9000 1200
 F 0 "C1" H 9050 1300 50  0000 L CNN
@@ -823,7 +823,7 @@ F 3 "" H 9000 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R1
+L icescreamer-rescue:R R1
 U 1 1 5A2F0E77
 P 9300 1050
 F 0 "R1" V 9380 1050 50  0000 C CNN
@@ -834,7 +834,7 @@ F 3 "" H 9300 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R2
+L icescreamer-rescue:R R2
 U 1 1 5A2F0F5C
 P 9300 1350
 F 0 "R2" V 9380 1350 50  0000 C CNN
@@ -845,7 +845,7 @@ F 3 "" H 9300 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:CP-icescreamer-rescue C2
+L icescreamer-rescue:CP C2
 U 1 1 5A2F1049
 P 9850 1350
 F 0 "C2" H 9875 1450 50  0000 L CNN
@@ -856,7 +856,7 @@ F 3 "" H 9850 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:SW_TPDT-icescreamer-rescue SW1
+L icescreamer-rescue:SW_TPDT SW1
 U 1 1 5A2F2F1F
 P 7200 4200
 F 0 "SW1" H 7025 4400 50  0000 C CNN
@@ -867,7 +867,7 @@ F 3 "" H 7200 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:Jumper-icescreamer-rescue JP1
+L icescreamer-rescue:Jumper JP1
 U 1 1 5A2F3AF7
 P 9850 4150
 F 0 "JP1" H 9850 4300 50  0000 C CNN
@@ -882,7 +882,7 @@ PSEUDO_IN_2
 Text GLabel 8800 2750 3    60   Input ~ 0
 PSEUDO_OUT
 $Comp
-L icescreamer-rescue:Jumper-icescreamer-rescue JP20
+L icescreamer-rescue:Jumper JP20
 U 1 1 5A2F92F0
 P 9850 4500
 F 0 "JP20" H 9850 4650 50  0000 C CNN
@@ -893,7 +893,7 @@ F 3 "" H 9850 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:Jumper-icescreamer-rescue JP21
+L icescreamer-rescue:Jumper JP21
 U 1 1 5A2F93E5
 P 9850 4850
 F 0 "JP21" H 9850 5000 50  0000 C CNN
@@ -922,7 +922,7 @@ LED_CATHODE
 Text GLabel 7700 4450 2    60   Input ~ 0
 LED_CATHODE
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R18
+L icescreamer-rescue:R R18
 U 1 1 5A302298
 P 7550 4450
 F 0 "R18" V 7630 4450 50  0000 C CNN
@@ -943,7 +943,7 @@ EFF_OUT
 Text GLabel 10150 4850 2    60   Input ~ 0
 JACK_OUT
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR024
+L icescreamer-rescue:-VDC #PWR024
 U 1 1 5A3063DD
 P 7000 4550
 F 0 "#PWR024" H 7000 4450 50  0001 C CNN
@@ -954,7 +954,7 @@ F 3 "" H 7000 4550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C4
+L icescreamer-rescue:C C4
 U 1 1 5A310962
 P 9600 1350
 F 0 "C4" H 9625 1450 50  0000 L CNN
@@ -965,7 +965,7 @@ F 3 "" H 9600 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C3
+L icescreamer-rescue:C C3
 U 1 1 5A310B55
 P 9600 1050
 F 0 "C3" H 9625 1150 50  0000 L CNN
@@ -976,7 +976,7 @@ F 3 "" H 9600 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:Audio-Jack-3_3Switches-icescreamer-rescue J1
+L icescreamer-rescue:Audio-Jack-3_3Switches J1
 U 1 1 5A3112F3
 P 8750 5750
 F 0 "J1" H 8700 6050 50  0000 C CNN
@@ -993,7 +993,7 @@ BATT-
 Text GLabel 9200 5750 2    60   Input ~ 0
 BATT-
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR025
+L icescreamer-rescue:-VDC #PWR025
 U 1 1 5A313E2F
 P 9000 6050
 F 0 "#PWR025" H 9000 5950 50  0001 C CNN
@@ -1004,7 +1004,7 @@ F 3 "" H 9000 6050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:Audio-Jack-3_3Switches-icescreamer-rescue J2
+L icescreamer-rescue:Audio-Jack-3_3Switches J2
 U 1 1 5A314FA6
 P 10150 5750
 F 0 "J2" H 10100 6050 50  0000 C CNN
@@ -1015,7 +1015,7 @@ F 3 "" H 10400 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR026
+L icescreamer-rescue:-VDC #PWR026
 U 1 1 5A317598
 P 9600 3350
 F 0 "#PWR026" H 9600 3250 50  0001 C CNN
@@ -1026,7 +1026,7 @@ F 3 "" H 9600 3350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R15
+L icescreamer-rescue:R R15
 U 1 1 5A31884E
 P 9600 3100
 F 0 "R15" V 9680 3100 50  0000 C CNN
@@ -1037,7 +1037,7 @@ F 3 "" H 9600 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R16
+L icescreamer-rescue:R R16
 U 1 1 5A318959
 P 9850 2850
 F 0 "R16" V 9930 2850 50  0000 C CNN
@@ -1048,7 +1048,7 @@ F 3 "" H 9850 2850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C13
+L icescreamer-rescue:C C13
 U 1 1 5A318A7F
 P 10250 2850
 F 0 "C13" H 10275 2950 50  0000 L CNN
@@ -1059,7 +1059,7 @@ F 3 "" H 10250 2850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R17
+L icescreamer-rescue:R R17
 U 1 1 5A318B96
 P 10500 3100
 F 0 "R17" V 10580 3100 50  0000 C CNN
@@ -1070,7 +1070,7 @@ F 3 "" H 10500 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR027
+L icescreamer-rescue:-VDC #PWR027
 U 1 1 5A319600
 P 10500 3350
 F 0 "#PWR027" H 10500 3250 50  0001 C CNN
@@ -1081,7 +1081,7 @@ F 3 "" H 10500 3350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR028
+L icescreamer-rescue:-VDC #PWR028
 U 1 1 5A319DA3
 P 10450 5550
 F 0 "#PWR028" H 10450 5450 50  0001 C CNN
@@ -1098,7 +1098,7 @@ NoConn ~ 10350 5850
 NoConn ~ 10350 6050
 NoConn ~ 5100 1100
 $Comp
-L icescreamer-rescue:+VDC-icescreamer-rescue #PWR029
+L icescreamer-rescue:+VDC #PWR029
 U 1 1 5A32463E
 P 9600 2400
 F 0 "#PWR029" H 9600 2300 50  0001 C CNN
@@ -1109,7 +1109,7 @@ F 3 "" H 9600 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R19
+L icescreamer-rescue:R R19
 U 1 1 5A336071
 P 8350 2800
 F 0 "R19" V 8430 2800 50  0000 C CNN
@@ -1120,7 +1120,7 @@ F 3 "" H 8350 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:NE5532-icescreamer-rescue U1
+L icescreamer-rescue:NE5532 U1
 U 2 1 5A33E767
 P 6950 2400
 F 0 "U1" H 6950 2600 50  0000 L CNN
@@ -1133,7 +1133,7 @@ $EndComp
 NoConn ~ 8950 5650
 NoConn ~ 8950 5850
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR032
+L icescreamer-rescue:-VDC #PWR032
 U 1 1 5A341895
 P 7400 4300
 F 0 "#PWR032" H 7400 4200 50  0001 C CNN
@@ -1145,7 +1145,7 @@ F 3 "" H 7400 4300 50  0001 C CNN
 $EndComp
 NoConn ~ 7400 4650
 $Comp
-L icescreamer-rescue:+VDC-icescreamer-rescue #PWR033
+L icescreamer-rescue:+VDC #PWR033
 U 1 1 5A34251F
 P 9600 900
 F 0 "#PWR033" H 9600 800 50  0001 C CNN
@@ -1156,7 +1156,7 @@ F 3 "" H 9600 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR035
+L icescreamer-rescue:-VDC #PWR035
 U 1 1 5A3426E7
 P 9600 1500
 F 0 "#PWR035" H 9600 1400 50  0001 C CNN
@@ -1167,7 +1167,7 @@ F 3 "" H 9600 1500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:PWR_FLAG-icescreamer-rescue #FLG036
+L icescreamer-rescue:PWR_FLAG #FLG036
 U 1 1 5A342852
 P 9300 900
 F 0 "#FLG036" H 9300 975 50  0001 C CNN
@@ -1178,7 +1178,7 @@ F 3 "" H 9300 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:PWR_FLAG-icescreamer-rescue #FLG037
+L icescreamer-rescue:PWR_FLAG #FLG037
 U 1 1 5A342963
 P 10500 900
 F 0 "#FLG037" H 10500 975 50  0001 C CNN
@@ -1189,7 +1189,7 @@ F 3 "" H 10500 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:PWR_FLAG-icescreamer-rescue #FLG038
+L icescreamer-rescue:PWR_FLAG #FLG038
 U 1 1 5A342A6D
 P 9300 1500
 F 0 "#FLG038" H 9300 1575 50  0001 C CNN
@@ -1518,7 +1518,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 1500 9600 1500
 $Comp
-L icescreamer-rescue:NE5532-icescreamer-rescue U1
+L icescreamer-rescue:NE5532 U1
 U 1 1 5A2D7FAB
 P 4850 2300
 F 0 "U1" H 4850 2500 50  0000 L CNN
@@ -1539,7 +1539,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 4050 2350 4150
 $Comp
-L icescreamer-rescue:D-icescreamer-rescue D20
+L icescreamer-rescue:D D20
 U 1 1 5A2E7973
 P 2350 4300
 F 0 "D20" H 2350 4400 50  0000 C CNN
@@ -1556,7 +1556,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 4600 5300 4600
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR021
+L icescreamer-rescue:-VDC #PWR021
 U 1 1 5A2EB526
 P 5300 4600
 F 0 "#PWR021" H 5300 4500 50  0001 C CNN
@@ -1567,7 +1567,7 @@ F 3 "" H 5300 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C27
+L icescreamer-rescue:C C27
 U 1 1 5A2E8AC1
 P 5000 4600
 F 0 "C27" H 5025 4700 50  0000 L CNN
@@ -1587,7 +1587,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 4050 4700 4150
 $Comp
-L icescreamer-rescue:D-icescreamer-rescue D21
+L icescreamer-rescue:D D21
 U 1 1 5A2E89C1
 P 4700 4300
 F 0 "D21" H 4700 4400 50  0000 C CNN
@@ -1607,7 +1607,7 @@ Connection ~ 1950 3750
 Wire Wire Line
 	1950 4150 1950 4050
 $Comp
-L icescreamer-rescue:GNDREF-icescreamer-rescue #PWR030
+L icescreamer-rescue:GNDREF #PWR030
 U 1 1 5A3265C3
 P 1950 4150
 F 0 "#PWR030" H 1950 3900 50  0001 C CNN
@@ -1618,7 +1618,7 @@ F 3 "" H 1950 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C20
+L icescreamer-rescue:C C20
 U 1 1 5A2EDC63
 P 1650 3750
 F 0 "C20" H 1675 3850 50  0000 L CNN
@@ -1629,7 +1629,7 @@ F 3 "" H 1650 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R20
+L icescreamer-rescue:R R20
 U 1 1 5A2EDB71
 P 1950 3900
 F 0 "R20" V 2030 3900 50  0000 C CNN
@@ -1649,7 +1649,7 @@ Connection ~ 2350 5200
 Wire Wire Line
 	2350 5200 2350 5050
 $Comp
-L icescreamer-rescue:R-icescreamer-rescue R22
+L icescreamer-rescue:R R22
 U 1 1 5A2E77FE
 P 2350 4900
 F 0 "R22" V 2430 4900 50  0000 C CNN
@@ -1667,7 +1667,7 @@ Connection ~ 2350 4600
 Wire Wire Line
 	2200 4600 2350 4600
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C21
+L icescreamer-rescue:C C21
 U 1 1 5A2E786C
 P 2050 4600
 F 0 "C21" H 2075 4700 50  0000 L CNN
@@ -1680,7 +1680,7 @@ $EndComp
 Wire Wire Line
 	1200 4600 1900 4600
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR016
+L icescreamer-rescue:-VDC #PWR016
 U 1 1 5A2EAF99
 P 1200 4600
 F 0 "#PWR016" H 1200 4500 50  0001 C CNN
@@ -1691,7 +1691,7 @@ F 3 "" H 1200 4600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icescreamer-rescue:GNDREF-icescreamer-rescue #PWR0101
+L icescreamer-rescue:GNDREF #PWR0101
 U 1 1 5E92F317
 P 8250 3100
 F 0 "#PWR0101" H 8250 2850 50  0001 C CNN
@@ -1744,7 +1744,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 1050 8600 1050
 $Comp
-L icescreamer-rescue:+VDC-icescreamer-rescue #PWR0102
+L icescreamer-rescue:+VDC #PWR0102
 U 1 1 5E4DEDC6
 P 7200 5550
 F 0 "#PWR0102" H 7200 5450 50  0001 C CNN
@@ -1755,7 +1755,7 @@ F 3 "" H 7200 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:+VDC-icescreamer-rescue #PWR0103
+L icescreamer-rescue:+VDC #PWR0103
 U 1 1 5E4E3566
 P 4750 2600
 F 0 "#PWR0103" H 4750 2500 50  0001 C CNN
@@ -1766,7 +1766,7 @@ F 3 "" H 4750 2600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR0104
+L icescreamer-rescue:-VDC #PWR0104
 U 1 1 5E4E41A6
 P 6850 2700
 F 0 "#PWR0104" H 6850 2600 50  0001 C CNN
@@ -1777,7 +1777,7 @@ F 3 "" H 6850 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L icescreamer-rescue:-VDC-icescreamer-rescue #PWR0105
+L icescreamer-rescue:-VDC #PWR0105
 U 1 1 5E4E4C1D
 P 4750 2000
 F 0 "#PWR0105" H 4750 1900 50  0001 C CNN
@@ -1791,7 +1791,7 @@ Text GLabel 3500 2450 3    60   Input ~ 0
 PSEUDO_IN_1
 Connection ~ 7250 2400
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C14
+L icescreamer-rescue:C C14
 U 1 1 5E4A17DA
 P 10100 1350
 F 0 "C14" H 10125 1450 50  0000 L CNN
@@ -1802,7 +1802,7 @@ F 3 "" H 10100 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C15
+L icescreamer-rescue:C C15
 U 1 1 5E4A1E61
 P 10300 1350
 F 0 "C15" H 10325 1450 50  0000 L CNN
@@ -1813,7 +1813,7 @@ F 3 "" H 10300 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C16
+L icescreamer-rescue:C C16
 U 1 1 5E4A2346
 P 8800 1200
 F 0 "C16" H 8750 1450 50  0000 L CNN
@@ -1824,7 +1824,7 @@ F 3 "" H 8800 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:GNDREF-icescreamer-rescue #PWR034
+L icescreamer-rescue:GNDREF #PWR034
 U 1 1 5A342630
 P 10500 900
 F 0 "#PWR034" H 10500 650 50  0001 C CNN
@@ -1835,7 +1835,7 @@ F 3 "" H 10500 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C17
+L icescreamer-rescue:C C17
 U 1 1 5E4CF043
 P 10500 1350
 F 0 "C17" H 10525 1450 50  0000 L CNN
@@ -1846,7 +1846,7 @@ F 3 "" H 10500 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icescreamer-rescue:C-icescreamer-rescue C18
+L icescreamer-rescue:C C18
 U 1 1 5E4CF526
 P 10700 1350
 F 0 "C18" H 10725 1450 50  0000 L CNN
