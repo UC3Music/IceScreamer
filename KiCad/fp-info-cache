@@ -1,4 +1,4 @@
-17343754516921562
+17392759498069653
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -47060,6 +47060,167 @@ heatsink
 0
 2
 1
+IceScreamer
+1x02_P2.54mm_Hole
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+IceScreamer
+CP_Radial_D6.3mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor
+0
+2
+2
+IceScreamer
+C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+IceScreamer
+C_Rect_L7.0mm_W3.5mm_P2.50mm_P5.00mm
+C, Rect series, Radial, pin pitch=2.50mm 5.00mm, , length*width=7*3.5mm^2, Capacitor
+C Rect series Radial pin pitch 2.50mm 5.00mm  length 7mm width 3.5mm Capacitor
+0
+4
+2
+IceScreamer
+DIP8+SOIC8_2
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+16
+8
+IceScreamer
+D_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+diode handsolder
+0
+2
+2
+IceScreamer
+D_DO-41_SOD81_P7.62mm_Horizontal
+Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf
+Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm
+0
+2
+2
+IceScreamer
+D_MELF-RM10_Universal_Handsoldering
+Diode, Universal, MELF, RM10, Handsoldering, SMD, Thruhole,
+Diode Universal MELF RM10 Handsoldering SMD Thruhole 
+0
+2
+2
+IceScreamer
+D_MiniMELF_Handsoldering
+Diode Mini-MELF Handsoldering
+Diode Mini-MELF Handsoldering
+0
+2
+2
+IceScreamer
+IceJACK
+
+
+0
+6
+6
+IceScreamer
+IceLogoMask
+
+
+0
+0
+0
+IceScreamer
+IceLogoSilk
+
+
+0
+0
+0
+IceScreamer
+IceStomp_Switch_3PDT
+
+
+0
+9
+9
+IceScreamer
+PickLogoSilk
+
+
+0
+0
+0
+IceScreamer
+PickLogoSilk_15mm
+
+
+0
+0
+0
+IceScreamer
+PickLogoThinSilk_15mm
+
+
+0
+0
+0
+IceScreamer
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+IceScreamer
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+IceScreamer
+R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+IceScreamer
+SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+IceScreamer
+TO-92_SOT23_JorFru_compact
+TO-92 leads molded, narrow, oval pads, drill 0.8mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+6
+3
+IceScreamer
+ice03
+
+
+0
+0
+0
+IceScreamer
+ice05
+
+
+0
+0
+0
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -76699,7 +76860,7 @@ jack_barato
 5
 5
 prueba
-ice00
+Font0
 
 
 0
@@ -76707,6 +76868,13 @@ ice00
 0
 prueba
 ice0
+
+
+0
+0
+0
+prueba
+ice00
 
 
 0
@@ -76727,14 +76895,14 @@ ice01
 0
 0
 prueba
-ice02
+ice2
 
 
 0
 0
 0
 prueba
-ice2
+ice02
 
 
 0
@@ -76775,6 +76943,48 @@ ice05
 0
 0
 0
+prueba
+icemask
+
+
+0
+0
+0
+prueba
+icemask1
+
+
+0
+0
+0
+prueba
+icemask2
+
+
+0
+0
+0
+prueba
+icesilk
+
+
+0
+0
+0
+prueba
+icesilk1
+
+
+0
+0
+0
+prueba
+icesilk2
+
+
+0
+0
+0
 uc3music_logos
 logo_guitar_22.5x7.7mm
 
@@ -76798,6 +77008,13 @@ logo_guitar_45x15.4mm
 0
 uc3music_logos
 logo_guitar_45x15.4mm_mirror
+
+
+0
+0
+0
+uc3music_logos
+logo_picc_hollow_17mm
 
 
 0

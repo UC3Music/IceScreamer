@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name uc3music_logos)(type KiCad)(uri /home/jorfru/Proyectos/uc3music-logos/uc3music_logos.pretty)(options "")(descr ""))
+  (lib (name IceScreamer)(type KiCad)(uri ${KIPRJMOD}/IceScreamer.pretty)(options "")(descr ""))
+)
