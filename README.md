@@ -113,7 +113,21 @@ Los componentes grandes los hemos dejado para el final.
 ### Jacks
 Input y output van con el conector Neutrik [NMJ6HFD2](https://www.tme.eu/es/details/ntr-nmj6hfd2/conectores-jack/neutrik/nmj6hfd2/).
 
+## Mods conocidos
+### Más ganancia
+Baja el valor de R8 para conseguir más ganancia cuando el potenciómetro de ICE está al máximo. Si además no quieres cambiar la respuesta frecuencial, necesitarás cambiar el condensador C8 también. Si bajas a la mitad el valor de la resistencia, necesitarás doblar el valor del condensador para mantener la misma respuesta frecuencial.
+También es posible incrementar la ganancia cambiando el valor del potenciómetro ICE, de 470K a 1M, por ejemplo.
 
-Otros mods:
+### Más graves
+Incrementa el valor del condensador C8, por ejemplo a 100nF.
+
+### Diferentes distorsiones
+El IceScreamer produce una distorsión simétrica, para convertirla en asimétrica puedes cambiar uno de los diodos 1N4148 por un 1N4001, esto crea harmónicos impares que dan una distorsión más "suave" o "líquida".
+
+Puedes probar varias cosas, como poner un diodo de germanio (1N34A) en serie con uno de los 1N4148 de silicio para añadir un poco más de margen de voltaje y producir asimetría. Una modificación más radical sería intercambiar un diodo de silicio por tres de germanio. Y aún más radical sería intercambiar un diodo de silicio por dos de germanio. Estas modificaciones empezarían a crear un suave efecto octavador, que se puede apreciar sobre todo en las notas más graves de la guitarra.
+
+Puedes incluso poner diodos LED, lo dejo caer.
+
+## Otros mods:
 En [esta página](https://www.electrosmash.com/tube-screamer-analysis) leí que [estos](https://www.tme.eu/es/details/2sc1815-cen/transistores-npn-tht/central-semiconductor-corp/2sc1815/) otros transistores metían menos ruido pero todavía no está comprobado. Ojo con las patillas de este que van diferentes.
 A través de los transistores Q1 y Q2 circula sonido, sin embargo, a través de Q20, Q21 y Q22 no circula sonido. Por eso si quieres poner componentes más sofisticados, hazlo sólo en Q1 y Q2, ya que cambiar los otros tres no afectará para nada el sonido. De todas formas, si usas True Bypass no necesitarás ni Q20, Q21 ni Q22, sólo se usan para el Pseudo True Bypass.
