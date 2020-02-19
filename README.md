@@ -52,9 +52,9 @@ De no indicarse algo diferente, los condensadores serán cerámicos.
 
 - C3, C4, C8, C12, C14, C15, C16, C17 y C18: 100nF
 - C5: 22nF.
-- C6 y C11: 1uF.
+- C6 y C11: 1uF. Estos condensadores deberían de ser de poliéster en vez de cerámicos, y el footprint debería de ser THT en vez de SMD.
 - C7: 47pF, THT.
-- C8: 47nF, THT.
+- C8: 47nF, THT.30
 - C9: 220nF.
 - C10: 220nF, THT.
 - C13: 10uF.
@@ -131,3 +131,10 @@ Puedes incluso poner diodos LED, lo dejo caer.
 ## Otros mods:
 En [esta página](https://www.electrosmash.com/tube-screamer-analysis) leí que [estos](https://www.tme.eu/es/details/2sc1815-cen/transistores-npn-tht/central-semiconductor-corp/2sc1815/) otros transistores metían menos ruido pero todavía no está comprobado. Ojo con las patillas de este que van diferentes.
 A través de los transistores Q1 y Q2 circula sonido, sin embargo, a través de Q20, Q21 y Q22 no circula sonido. Por eso si quieres poner componentes más sofisticados, hazlo sólo en Q1 y Q2, ya que cambiar los otros tres no afectará para nada el sonido. De todas formas, si usas True Bypass no necesitarás ni Q20, Q21 ni Q22, sólo se usan para el Pseudo True Bypass.
+
+
+## Referencias
+Este proyecto ha sido realizado inspirándose en el Tube Screamer de Ibanez y en los siguientes artículos:
+http://www.geofex.com/Article_Folders/TStech/tsxfram.htm
+https://www.electrosmash.com/tube-screamer-analysis
+https://www.muzique.com/tech/scream.htm
