@@ -34,7 +34,7 @@ De no indicarse algo diferente, los condensadores serán cerámicos.
 - C13: 10uF.
 
 Si pretendes ensamblar la versión True Bypass, deja de soldar condensadores, puedes pasar a la siguiente parte.
-A continucación los componentes para la versión Pseudo True Bypass.
+A continucación los condensadores para la versión Pseudo True Bypass.
 
 - C20: 100nF
 - C21 y C27: 47nF
@@ -43,6 +43,34 @@ A continucación los componentes para la versión Pseudo True Bypass.
 
 ### Resistencias
 Todas las resistencias del IceScreamer son componentes SMD de tamaño 2012 métrico, equivale a 0805 imperial. Para no equivocarnos, los componentes miden 2,0mm x 1,25mm.
+Las resistencias serán de película metálica gruesa.
+Cuando digo 10R me refiero a 10 ohmios. Cuando digo 10K me refiero a 10 mil ohmios.
+
+- R1, R2, R5, R6, R10, R15 y R17: 10K
+- R3, R9, R11, R13: 1K
+- R4, R14: 470K
+- R7: 47K
+- R8: 4,7K
+- R12: 220R
+- R16: 100R
+- R18: resistencia limitadora del LED; hay que calcularla. Se actualizará con el valor próximamente. Para Pseudo True Bypass usar 36K.
+- R19: 10K (sólo en caso de estar usando un potenciómetro de volumen lineal y quieras que tenga una respuesta pseudologarítmica)
+
+
+Si pretendes ensamblar la versión True Bypass, deja de soldar resistencias, puedes pasar a la siguiente parte.
+A continucación las resistencias para la versión Pseudo True Bypass.
+
+- R20 y R21: 470K
+- R22, R26 y R32: 1M
+- R23, R24, R30, R31, R34: 56K
+- R25: 22K
+- R27: 22R
+- R28 y R29: 47K
+- R33: 0R
+- R35: resistencia limitadora del LED. Para el LED rojo original, 36K. Para distintos colores hay que calcularla.
+- R36: 100R
+
+### Diodos
 
 
 
@@ -50,6 +78,9 @@ Todas las resistencias del IceScreamer son componentes SMD de tamaño 2012 métr
 Los componentes grandes los hemos dejado para el final.
 - C1 y C2: electrolítico, entre 220 y 470uF, mínimo 15V. Preferiblemente bajo ESR. Distancia entre patillas 2,54mm.
 
+### Transistores
+
+### Circuito integrado
 
 Otros mods:
 En [esta página](https://www.electrosmash.com/tube-screamer-analysis) leí que [estos](https://www.tme.eu/es/details/2sc1815-cen/transistores-npn-tht/central-semiconductor-corp/2sc1815/) otros transistores metían menos ruido pero todavía no está comprobado. Ojo con las patillas de este que van diferentes.
