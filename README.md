@@ -50,7 +50,7 @@ A continucación las resistencias para la versión Pseudo True Bypass.
 Todos los condensadores del IceScreamer, a menos que se indique lo contrario, son componentes SMD de tamaño 2012 métrico, equivale a 0805 imperial. Para no equivocarnos, los componentes miden 2,0mm x 1,25mm.
 De no indicarse algo diferente, los condensadores serán cerámicos.
 
-- C3, C4, C8, C12, C14, C15, C16, C17 y C18: 100nF
+- C3, C4, C12, C14, C15, C16, C17 y C18: 100nF
 - C5: 22nF.
 - C6 y C11: 1uF. Estos condensadores deberían de ser de poliéster en vez de cerámicos, y el footprint debería de ser THT en vez de SMD.
 - C7: 47pF, THT.
