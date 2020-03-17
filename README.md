@@ -28,8 +28,11 @@ Por lo tanto: usar muchos pedales buffered bypass no es bueno, porque la cadena 
 Si eliges True Bypass, puentea únicamente el jumper "Short for TruBy" que está debajo del conector MILK. 
 Si eliges Pseudo True Bypass, puentea únicamente los dos jumpers "Short both for Pseudo" que están entre los jacks de entrada y salida.
 
-## Componentes electrónicos
+## Empezamos a soldar
 Los componentes se muestran en el orden que deben de ser soldados. Es más cómodo empezar por los componentes más pequeños y terminar con los más grandes.
+Si quieres aprender a soldar, puedes tomar estos vídeos como ejemplo:
+[Tutorial SMT4Dummies de JorFru](https://www.youtube.com/watch?v=6ee5rFPXXJo)
+[Tutorial SMT4Dummies de David Antón](https://www.youtube.com/watch?v=6ee5rFPXXJo)
 
 ### Resistencias
 Todas las resistencias del IceScreamer son componentes SMD de tamaño 2012 métrico, equivale a 0805 imperial. Para no equivocarnos, los componentes miden 2,0mm x 1,25mm.
