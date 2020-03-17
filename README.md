@@ -68,7 +68,7 @@ A continucación los condensadores para la versión Pseudo True Bypass.
 - C23 y C24: 100pF
 
 ### Diodos
-Excepto D1 y D4 que son THT, los demás son 2012 métrico aunque también sirve MicroMELF.
+Excepto D1 y D4 que son THT, los demás son 2012 métrico (0805 imperial) aunque también sirve MicroMELF.
 
 - D1: 1N4001, o cualquier otro diodo genérico de 1A o más.
 - D2 y D3: 1N4148
@@ -95,11 +95,10 @@ Para montar tu IceScreamer con Pseudo True Bypass continúa soldando los siquien
 - Q23 y Q24: [MMBF4392L](https://www.tme.eu/es/details/mmbf4392lt1g/transistores-con-canal-n-smd/on-semiconductor/). Este es un transistor JFET.
 
 
-
 ### Circuito integrado
 Podemos instalar un socket DIP8 para que sea más fácil intercambiar el integrado.
 
-U1: JRC4558. Nosotros usamos [RC4558] (https://www.tme.eu/es/details/rc4558p/amplificadores-operativos-tht/texas-instruments/)
+U1: JRC4558. Nosotros usamos [RC4558](https://www.tme.eu/es/details/rc4558p/amplificadores-operativos-tht/texas-instruments/), pero puedes usar cualquier "dual op amp" qie tengas a mano, por ejemplo NE5532,TL082, etc.
 
 ### Potenciómetros
 - ICE (Drive): 470K lineak
