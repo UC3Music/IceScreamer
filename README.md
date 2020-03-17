@@ -81,12 +81,12 @@ A continucación los diodos para la versión Pseudo True Bypass.
 - D23: BZM55C4V7, Zener 4.7V
 
 ### Transistores
-Los transistores se colocan en la posición que está pintada en la placa. Si usas otros transistores, posiblemente tengas que colocarlos de diferente manera. Mirando el transistor de manera que esté como la letra "D" visto desde arriba en planta, de arriba a abajo las patillas serán Colector, Base, Emisor. Esa es la manera que la placa está preparada para colocarlos.
+Los transistores se colocan en la posición que está pintada en la placa. Si usas otros transistores diferentes al BC547 recomendado, posiblemente tengas que colocarlos de diferente manera. Mirando el transistor de manera que esté como la letra "D" visto desde arriba en planta, de arriba a abajo las patillas serán Colector, Base, Emisor. Esa es la manera que la placa está preparada para colocarlos.
 
 
 - Q1, Q2, Q20, Q21 y Q22: [BC547](https://www.tme.eu/es/details/bc547-cdi/transistores-npn-tht/cdil/bc547/). Se puede usar cualquier transistor NPN, pero ojo a la posición de las patillas.
 
-- Q23 y Q24: [MMBF4392L](https://www.tme.eu/es/details/mmbf4392lt1g/transistores-con-canal-n-smd/on-semiconductor/). 
+- Q23 y Q24: [MMBF4392L](https://www.tme.eu/es/details/mmbf4392lt1g/transistores-con-canal-n-smd/on-semiconductor/).
 
 ### Circuito integrado
 Podemos instalar un socket DIP8 para que sea más fácil intercambiar el integrado.
@@ -104,7 +104,10 @@ Si estás montándolo como Pseudo True Bypass, suelda un pulsador momentáneo [S
 
 ### Batería
 Conecta tu batería al conector marcado como "9V Batt", respetando la polaridad.
-Antes de soldar, introduce los cables por los agujeros, para asegurarlo y que no se rompa de un tirón.
+Antes de soldar, introduce los cables por los agujeros, para asegurarlo y evitar que se rompa de un tirón.
+<p align="center">
+<img src="/pic/IceScreamerDetalleCable.jpg" width="20%">
+</p>
 
 ### Para terminar
 Los componentes grandes los hemos dejado para el final.
@@ -117,7 +120,9 @@ Input y output van con el conector Neutrik [NMJ6HFD2](https://www.tme.eu/es/deta
 ### Más ganancia
 Baja el valor de R8 para conseguir más ganancia cuando el potenciómetro de ICE está al máximo. Si además no quieres cambiar la respuesta frecuencial, necesitarás cambiar el condensador C8 también. Si bajas a la mitad el valor de la resistencia, necesitarás doblar el valor del condensador para mantener la misma respuesta frecuencial.
 
-También es posible incrementar la ganancia cambiando el valor del potenciómetro ICE, de 470K a 1M, por ejemplo.
+Por ejemplo, resistencia R8 bajarla de 4.7K a 2.2K (se pueden poner dos resistencias de 4.7K en paralelo), condensador C8 subirlo de 47nF a 100nF (se pueden poner dos condensadores de 47nF en paralelo)
+
+También es posible incrementar la ganancia cambiando el valor del potenciómetro ICE (el potenciómetro de ganancia, el de la izquierda), de 470K a 1M, por ejemplo.
 
 ### Más graves
 Incrementa el valor del condensador C8, por ejemplo a 100nF.
@@ -130,8 +135,10 @@ Puedes probar varias cosas, como poner un diodo de germanio (1N34A) en serie con
 Puedes incluso poner diodos LED, lo dejo caer.
 
 ## Otros mods:
-En [esta página](https://www.electrosmash.com/tube-screamer-analysis) leí que [estos](https://www.tme.eu/es/details/2sc1815-cen/transistores-npn-tht/central-semiconductor-corp/2sc1815/) otros transistores metían menos ruido pero todavía no está comprobado. Ojo con las patillas de este que van diferentes.
-A través de los transistores Q1 y Q2 circula sonido, sin embargo, a través de Q20, Q21 y Q22 no circula sonido. Por eso si quieres poner componentes más sofisticados, hazlo sólo en Q1 y Q2, ya que cambiar los otros tres no afectará para nada el sonido. De todas formas, si usas True Bypass no necesitarás ni Q20, Q21 ni Q22, sólo se usan para el Pseudo True Bypass.
+En [esta página](https://www.electrosmash.com/tube-screamer-analysis) leí que [estos](https://www.tme.eu/es/details/2sc1815-cen/transistores-npn-tht/central-semiconductor-corp/2sc1815/) otros transistores metían menos ruido pero ojo con las patillas de este que van diferentes, la posición en la que hay que montarlos no se corresponde con la pintada en la placa.
+Según la lista de componentes recomendados para el IceScreamer se usan los transistores NPN BC547, y en los primeros prototipos no han dado ningún problema de ruido.
+
+A través de los transistores Q1 y Q2 circula sonido, sin embargo, a través de Q20, Q21 y Q22 no circula sonido. Por eso si quieres poner componentes más sofisticados, hazlo sólo en Q1 y Q2, ya que cambiar los otros tres no afectará para nada el sonido. De todas formas, si usas True Bypass no necesitarás ni Q20, Q21 ni Q22, ya que sólo se usan para el Pseudo True Bypass.
 
 
 ## Referencias
