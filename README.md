@@ -81,12 +81,20 @@ A continucación los diodos para la versión Pseudo True Bypass.
 - D23: BZM55C4V7, Zener 4.7V
 
 ### Transistores
-Los transistores se colocan en la posición que está pintada en la placa. Si usas otros transistores diferentes al BC547 recomendado, posiblemente tengas que colocarlos de diferente manera. Mirando el transistor de manera que esté como la letra "D" visto desde arriba en planta, de arriba a abajo las patillas serán Colector, Base, Emisor. Esa es la manera que la placa está preparada para colocarlos.
+Los transistores se colocan en la posición que está pintada en la placa. Si usas otros transistores diferentes al BC547 recomendado, posiblemente tengas que colocarlos de diferente manera.
+Todos los transistores de la placa están preparados para colocarse como en la siguiente imagen.
+<p align="center">
+<img src="/pic/IceScreamerDetalleTransistor.jpg" width="20%">
+</p>
+
+- Q1, Q2: [BC547](https://www.tme.eu/es/details/bc547-cdi/transistores-npn-tht/cdil/bc547/). Se puede usar cualquier transistor NPN, pero ojo a la posición de las patillas.
+
+Para montar tu IceScreamer con Pseudo True Bypass continúa soldando los siquientes:
+- Q20, Q21 y Q22: [BC547](https://www.tme.eu/es/details/bc547-cdi/transistores-npn-tht/cdil/bc547/). Se puede usar cualquier transistor NPN, pero si lo cambias ojo a la posición de las patillas.
+
+- Q23 y Q24: [MMBF4392L](https://www.tme.eu/es/details/mmbf4392lt1g/transistores-con-canal-n-smd/on-semiconductor/). Este es un transistor JFET.
 
 
-- Q1, Q2, Q20, Q21 y Q22: [BC547](https://www.tme.eu/es/details/bc547-cdi/transistores-npn-tht/cdil/bc547/). Se puede usar cualquier transistor NPN, pero ojo a la posición de las patillas.
-
-- Q23 y Q24: [MMBF4392L](https://www.tme.eu/es/details/mmbf4392lt1g/transistores-con-canal-n-smd/on-semiconductor/).
 
 ### Circuito integrado
 Podemos instalar un socket DIP8 para que sea más fácil intercambiar el integrado.
