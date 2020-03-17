@@ -116,6 +116,7 @@ Input y output van con el conector Neutrik [NMJ6HFD2](https://www.tme.eu/es/deta
 ## Mods conocidos
 ### Más ganancia
 Baja el valor de R8 para conseguir más ganancia cuando el potenciómetro de ICE está al máximo. Si además no quieres cambiar la respuesta frecuencial, necesitarás cambiar el condensador C8 también. Si bajas a la mitad el valor de la resistencia, necesitarás doblar el valor del condensador para mantener la misma respuesta frecuencial.
+
 También es posible incrementar la ganancia cambiando el valor del potenciómetro ICE, de 470K a 1M, por ejemplo.
 
 ### Más graves
@@ -135,6 +136,6 @@ A través de los transistores Q1 y Q2 circula sonido, sin embargo, a través de 
 
 ## Referencias
 Este proyecto ha sido realizado inspirándose en el Tube Screamer de Ibanez y en los siguientes artículos:
-http://www.geofex.com/Article_Folders/TStech/tsxfram.htm
-https://www.electrosmash.com/tube-screamer-analysis
-https://www.muzique.com/tech/scream.htm
+- http://www.geofex.com/Article_Folders/TStech/tsxfram.htm
+- https://www.electrosmash.com/tube-screamer-analysis
+- https://www.muzique.com/tech/scream.htm
