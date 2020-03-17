@@ -12,6 +12,19 @@ Entre ellas:
 
 ## Elige entre True Bypass o Pseudo True Bypass.
 
+¿Por qué no todos los pedales de guitarra son true bypass? Desde el punto de vista de la manufactura a gran escala, no conviene el sistema true bypass, porque se necesita usar un interruptor muy grande y bastante caro, hay que realizar nueve soldaduras y por lo general tienen que hacerse a mano.
+Buffered bypass es la solución a la que llegaron muchos fabricantes de pedales (BOSS, Ibanez, entre otros), para abaratar la fabricación. 28 componentes
+
+True Bypass significa que cuando el pedal está desactivado tu señal pasa completamente inalterada desde la entrada hasta la salida del pedal, como si simplemente hubiese un cable por dentro que conecta la entrada directamente a la salida. De esta manera, el pedal no afectará nada tu sonido de guitarra. Este sistema tiene dos defectos:
+- Se puede producir un sonido "clack" audible que se escuchará por el ampli de guitarra.
+- Si utilizas cables largos (por ejemplo 6m de la guitarra a la pedalera, y luego 6m de la pedalera al ampli) estarás perdiendo agudos porque la salida de la guitarra es de alta impedancia y le afecta mucho la capacitancia del cable.
+
+Pseudo True Bypass (buffered bypass) significa que cuando el pedal está desactivado, tu señal pasa por unos "buffer", esto son amplificadores de señal con ganancia 1, ni añaden volumen ni atenuan la señal. Estos buffer no deberían de afectar a la señal, pero según un [vídeo de youtube](https://www.youtube.com/watch?v=-oxBlWmeGE0), si pones demasiados pedales seguidos  (más de cinco) con buffered bypass se puede apreciar que se recortan frecuencias graves y un poco las agudas. Los beneficios de este sistema son:
+- La conmutación es más silenciosa, sin "clack" audible.
+- A partir de el pedal con buffer ya no importa cuántos metros de cable pongas, no perderás agudos. La salida del pedal es baja impedancia y la capacitancia del cable no afectará tanto a perder agudos en el cable.
+
+Por lo tanto: usar muchos pedales buffered bypass no es bueno, porque la cadena termina por dejar de ser transparente. Usar todos tus pedales True Bypass no es bueno si usas cables muy largos. Intercalar algún pedal buffered bypass arregla el problema. Mientras tengas esto en cuenta por lo demás no deberías de preocuparte mucho por cómo configuras tu pedalera, probar configuraciones, probar cambiando el orden de los pedales y seguir probando hasta que consigues tu sonido.
+
 Si eliges True Bypass, puentea únicamente el jumper "Short for TruBy" que está debajo del conector MILK. 
 Si eliges Pseudo True Bypass, puentea únicamente los dos jumpers "Short both for Pseudo" que están entre los jacks de entrada y salida.
 
