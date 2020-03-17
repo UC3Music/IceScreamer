@@ -12,8 +12,8 @@ Entre ellas:
 
 ## Elige entre True Bypass o Pseudo True Bypass.
 
-¿Por qué no todos los pedales de guitarra son true bypass? Desde el punto de vista de la manufactura a gran escala, no conviene el sistema true bypass, porque se necesita usar un interruptor muy grande y bastante caro, hay que realizar nueve soldaduras y por lo general tienen que hacerse a mano.
-Buffered bypass es la solución a la que llegaron muchos fabricantes de pedales (BOSS, Ibanez, entre otros), para abaratar la fabricación. 28 componentes
+Desde el punto de vista de la manufactura a gran escala, no conviene el sistema true bypass, porque se necesita usar un interruptor muy grande y bastante caro, hay que realizar nueve soldaduras y por lo general tienen que hacerse a mano.
+Buffered bypass es la solución a la que llegaron muchos fabricantes de pedales (BOSS, Ibanez, entre otros), para abaratar la fabricación. Pese a que se necesita emplear sobre 30 componentes más que la versión true bypass, ensamblar el buffered es  más barato y mucho más interesante en una cadena de montaje automatizada.
 
 True Bypass significa que cuando el pedal está desactivado tu señal pasa completamente inalterada desde la entrada hasta la salida del pedal, como si simplemente hubiese un cable por dentro que conecta la entrada directamente a la salida. De esta manera, el pedal no afectará nada tu sonido de guitarra. Este sistema tiene dos defectos:
 - Se puede producir un sonido "clack" audible que se escuchará por el ampli de guitarra.
