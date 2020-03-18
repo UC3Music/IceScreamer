@@ -1,5 +1,6 @@
 # IceScreamer
 Versión UC3Music del conocido pedal de guitarra de color verde.
+[read this in english](https://github.com/UC3Music/IceScreamer/blob/master/README.md)
 
 El pedal tiene una electrónica muy similar al TubeScreamer TS-808 de Ibanez. Sin embargo tiene ciertas mejoras integradas que hace que la mayoría de mods habituales se puedan realizar fácilmente.
 Entre ellas:
