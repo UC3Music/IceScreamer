@@ -1,6 +1,8 @@
 # IceScreamer
 UC3Music's version of the well known green guitar pedal: Ibanez's Tube Screamer.
 
+[Este mismo artículo en español](https://github.com/UC3Music/IceScreamer/blob/master/LEEME.md)
+
 This project has a very similar electronics to Ibanez TS-808 TubeScreamer. However, this board helps you building the circuit with most upgrades and mods easier.
 Considering this mods:
 - You can choose between true bypass or original pseudo true bypass.
