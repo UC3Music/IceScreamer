@@ -123,7 +123,7 @@ U1: JRC4558. We use [RC4558](https://www.tme.eu/es/details/rc4558p/amplificadore
 - CREAM (Tone): 20K lineal
 - MILK (Level): 100K logarithmic or lineal installing 10K on R19.
 
-### Interruptores
+### Switches
 For True Bypass, solder a  [3PDT](https://es.aliexpress.com/item/32530834644.html?spm=a2g0s.9042311.0.0.1ec663c0FUsGGv) (also called TPDT) switch in "SW_TruBy" mark.
 If you are assembling pseudo true bypass, solder a momentary button [SPST](https://es.aliexpress.com/item/32918205335.html?spm=a2g0o.productlist.0.0.4da0520bgPKH60&algo_pvid=74ea01d2-d432-4e98-9630-f63bd3b4dfa1&algo_expid=74ea01d2-d432-4e98-9630-f63bd3b4dfa1-12&btsid=0b0a01f815821201808298358e4f6b&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) in the "SW_Pseudo" mark. Before soldering, put the cables trough the holes to secure it down and avoid damage in case of strong pull.
 
@@ -133,40 +133,38 @@ Connect your battery lead to "9V Batt" mark, having polarity on mind. Before sol
 <img src="/pic/IceScreamerDetalleCable.jpg" width="20%">
 </p>
 
-### Para terminar
-Los componentes grandes los hemos dejado para el final.
-- C1 y C2: electrolítico, entre 220 y 470uF, mínimo 15V. Preferiblemente bajo ESR. Distancia entre patillas 2,54mm.
+### Big components last assembled
+
+- C1 y C2: electrolytic caps, 220-470uF, at least 15V. Better use low-ESR. Lead spacing is 2.54mm.
 
 ### Jacks
-Input y output van con el conector Neutrik [NMJ6HFD2](https://www.tme.eu/es/details/ntr-nmj6hfd2/conectores-jack/neutrik/nmj6hfd2/).
+Input and output are using Neutrik [NMJ6HFD2](https://www.tme.eu/es/details/ntr-nmj6hfd2/conectores-jack/neutrik/nmj6hfd2/) connector.
 
-## Mods conocidos
-### Más ganancia
-Baja el valor de R8 para conseguir más ganancia cuando el potenciómetro de ICE está al máximo. Si además no quieres cambiar la respuesta frecuencial, necesitarás cambiar el condensador C8 también. Si bajas a la mitad el valor de la resistencia, necesitarás doblar el valor del condensador para mantener la misma respuesta frecuencial.
+## Main mods
+### More gain
+If you want more distortion, lower that 4.7K R8 to get more gain when the drive control is maxxed out. If you don't also want to change the bass/treble response, you will need to change the capacitor C8 as well. If you half the resistor, double the capacitor to keep the same overall frequency response. In example, R8 from 4.7K to  2.2K (you can use two 4.7K in paralell), C8 cap from 47nF to 100nF (you can use two 47nF caps in paralell)
 
-Por ejemplo, resistencia R8 bajarla de 4.7K a 2.2K (se pueden poner dos resistencias de 4.7K en paralelo), condensador C8 subirlo de 47nF a 100nF (se pueden poner dos condensadores de 47nF en paralelo)
+It's also possible to increase gain potentiometer's value from 470K to 1M.
 
-También es posible incrementar la ganancia cambiando el valor del potenciómetro ICE (el potenciómetro de ganancia, el de la izquierda), de 470K a 1M, por ejemplo.
+### More bass
+Increase C8 value. I.E.: C8 from 47nF to 100nF. Or 200nF if you already done the "more gain" mod.
 
-### Más graves
-Incrementa el valor del condensador C8, por ejemplo a 100nF.
+### Swapping distortion flavour.
+The stock units use a pair of silicon signal diodes, which is a 1N4148. If you change one of these diodes, chances are that the resulting pair will not clip at the same voltage for positive and negative signals, giving you asymetrical clipping, and the resulting even order distortion. If you pick something close, like maybe a silicon power diode like the 1N400x series for the second diode, the resulting second harmonic will be very subtle, not audible as an octave effect at all, just a "sweeter" or more liquid tone.
 
-### Diferentes distorsiones
-El IceScreamer produce una distorsión simétrica, para convertirla en asimétrica puedes cambiar uno de los diodos 1N4148 por un 1N4001, esto crea harmónicos impares que dan una distorsión más "suave" o "líquida".
+You can try a number of things like putting one germanium (1N34A from Radio Shack works) diode in series with one of the silicons to add a bit more threshold voltage to one side. A more radical treatment would replace one of the silicons with three germaniums; even more radical would replace one of the silicons with TWO silicons. These last will start to make an octave effect just barely audible at some notes on the guitar neck.
 
-Puedes probar varias cosas, como poner un diodo de germanio (1N34A) en serie con uno de los 1N4148 de silicio para añadir un poco más de margen de voltaje y producir asimetría. Una modificación más radical sería intercambiar un diodo de silicio por tres de germanio. Y aún más radical sería intercambiar un diodo de silicio por dos de germanio. Estas modificaciones empezarían a crear un suave efecto octavador, que se puede apreciar sobre todo en las notas más graves de la guitarra.
-
-Puedes incluso poner diodos LED, lo dejo caer.
+I've even heard of using LED's in there for the clipping diodes. Go wild here.
 
 ## Otros mods:
-En [esta página](https://www.electrosmash.com/tube-screamer-analysis) leí que [estos](https://www.tme.eu/es/details/2sc1815-cen/transistores-npn-tht/central-semiconductor-corp/2sc1815/) otros transistores metían menos ruido pero ojo con las patillas de este que van diferentes, la posición en la que hay que montarlos no se corresponde con la pintada en la placa.
-Según la lista de componentes recomendados para el IceScreamer se usan los transistores NPN BC547, y en los primeros prototipos no han dado ningún problema de ruido.
+On [this site](https://www.electrosmash.com/tube-screamer-analysis) I read that [this transistors](https://www.tme.eu/es/details/2sc1815-cen/transistores-npn-tht/central-semiconductor-corp/2sc1815/) are more silent than suggested BC547. But check pinout when swapping transistors!
+However, on first prototypes, there's no noise issues with suggested parts.
 
-A través de los transistores Q1 y Q2 circula sonido, sin embargo, a través de Q20, Q21 y Q22 no circula sonido. Por eso si quieres poner componentes más sofisticados, hazlo sólo en Q1 y Q2, ya que cambiar los otros tres no afectará para nada el sonido. De todas formas, si usas True Bypass no necesitarás ni Q20, Q21 ni Q22, ya que sólo se usan para el Pseudo True Bypass.
+Through Q1 and Q2 is sound passing by, meanwhile there's no signal passing through Q20, Q21 nor Q22. If you are interesting in transistor swapping, consider on ly doing it on Q1 and Q2.
 
 
-## Referencias
-Este proyecto ha sido realizado inspirándose en el Tube Screamer de Ibanez y en los siguientes artículos:
+## References
+This project and documentation were inspired in the following posts:
 - http://www.geofex.com/Article_Folders/TStech/tsxfram.htm
 - https://www.electrosmash.com/tube-screamer-analysis
 - https://www.muzique.com/tech/scream.htm
