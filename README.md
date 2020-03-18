@@ -31,11 +31,12 @@ Si eliges Pseudo True Bypass, puentea únicamente los dos jumpers "Short both fo
 ## Empezamos a soldar
 Los componentes se muestran en el orden que deben de ser soldados. Es más cómodo empezar por los componentes más pequeños y terminar con los más grandes.
 Si quieres aprender a soldar, puedes tomar estos vídeos como ejemplo:
-[Tutorial SMT4Dummies de JorFru](https://www.youtube.com/watch?v=6ee5rFPXXJo)
-[Tutorial SMT4Dummies de David Antón](https://www.youtube.com/watch?v=6ee5rFPXXJo)
+- [Tutorial SMT4Dummies de JorFru](https://www.youtube.com/watch?v=6ee5rFPXXJo) SMT sin flux
+- [Tutorial SMT4Dummies de David Antón](https://www.youtube.com/watch?v=6ee5rFPXXJo) SMT con flux
+- [Tutorial random de internet](https://www.youtube.com/watch?v=BA7luKtNBzU) SMT con pistola de aire caliente
 
 ### Resistencias
-Todas las resistencias del IceScreamer son componentes SMD de tamaño 2012 métrico, equivale a 0805 imperial. Para no equivocarnos, los componentes miden 2,0mm x 1,25mm.
+Todas las resistencias del IceScreamer, al igual que los condensadores, son componentes SMD de tamaño 2012 métrico, equivale a 0805 imperial. Para no equivocarnos, los componentes miden 2,0mm x 1,25mm.
 Las resistencias serán de película metálica gruesa.
 Cuando digo 10R me refiero a 10 ohmios. Cuando digo 10K me refiero a 10 mil ohmios.
 
