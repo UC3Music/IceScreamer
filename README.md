@@ -1,19 +1,18 @@
 # IceScreamer
-Versión UC3Music del conocido pedal de guitarra de color verde.
+UC3Music's version of the well known green guitar pedal: Ibanez's Tube Screamer.
 
-El pedal tiene una electrónica muy similar al TubeScreamer TS-808 de Ibanez. Sin embargo tiene ciertas mejoras integradas que hace que la mayoría de mods habituales se puedan realizar fácilmente.
-Entre ellas:
-- Puedes elegir ensamblarlo con True Bypass o con el sistema original Pseudo True Bypass.
-- Mod de "más ganancia" muy fácil de hacer.
-- Cambio de IC más sencillo.
-- Cambio de diodos (conseguir diferente distorsión) más sencillo.
-- Convertible en TS5, TS10 y TS808, de manera accesible.
+This project has a very similar electronics to Ibanez TS-808 TubeScreamer. However, this board helps you building the circuit with most upgrades and mods easier.
+Considering this mods:
+- You can choose between true bypass or original pseudo true bypass.
+- Easier to provide "more gain"
+- IC will be mounted on a socket, easy to replace
+- Easier to swap diodes (different distorsion sounds)
+- Easier to swap between TS5, TS10 and TS808 versions.
 
+## Choose from true bypass or pseudo true bypass.
+Looking from a manufacture perspective, it's not convinient the true bypass design, since it requires a big and expensive three pole, dual trow switch. And because it's bulkiness and complexity it needs to be soldered by hand.
 
-## Elige entre True Bypass o Pseudo True Bypass.
-
-Desde el punto de vista de la manufactura a gran escala, no conviene el sistema true bypass, porque se necesita usar un interruptor muy grande y bastante caro, hay que realizar nueve soldaduras y por lo general tienen que hacerse a mano.
-Buffered bypass es la solución a la que llegaron muchos fabricantes de pedales (BOSS, Ibanez, entre otros), para abaratar la fabricación. Pese a que se necesita emplear sobre 30 componentes más que la versión true bypass, ensamblar el buffered es  más barato y mucho más interesante en una cadena de montaje automatizada.
+Buffered bypass is the way several manufacturers (Boss, Ibanez) come into, in order to reduce fabrication cost. However you need to solder 30 more components to get buffered bypass working, this circuit is more interesting for very automated manufactuing lines. Among other benefits.
 
 True Bypass significa que cuando el pedal está desactivado tu señal pasa completamente inalterada desde la entrada hasta la salida del pedal, como si simplemente hubiese un cable por dentro que conecta la entrada directamente a la salida. De esta manera, el pedal no afectará nada tu sonido de guitarra. Este sistema tiene dos defectos:
 - Se puede producir un sonido "clack" audible que se escuchará por el ampli de guitarra.
