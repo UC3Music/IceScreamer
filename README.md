@@ -32,7 +32,7 @@ If you choose to build your IceScreamer with pseudo true bypass, short only the 
 ## Let's begin soldering
 Components appears in the order it is meant to be soldered, from little to bigger size.
 If you need advice on how to solder, check this videos.
-- [Tutorial SMT4Dummies by David Antón](https://www.youtube.com/watch?v=6ee5rFPXXJo) SMT con flux
+- [Tutorial SMT4Dummies by David Antón](https://www.youtube.com/watch?v=AYtE7eyIIUI&t=5s) SMT con flux
 - [SMT with hou air gun](https://www.youtube.com/watch?v=BA7luKtNBzU)
 - [Hand soldering SMT by ItsInOurKernel](https://www.youtube.com/watch?v=PU7wLcuqc-I)
 - [Hand soldering SMT by EEVBlog](https://youtu.be/b9FC9fAlfQE?t=405)
