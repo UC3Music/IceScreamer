@@ -139,7 +139,8 @@ Battery cell Connect your battery lead to "9V Batt" mark, mind its polarity. Bef
 - C1 y C2: electrolytic caps, 220-470uF, at least 15V. Better use low-ESR. Lead spacing is 2.54mm.
 
 ### Jacks
-Input and output are using Neutrik [NMJ6HFD2](https://www.tme.eu/es/details/ntr-nmj6hfd2/conectores-jack/neutrik/nmj6hfd2/) connector.
+Input and output are using Amphenol [ACJS-IH](https://www.tme.eu/en/details/acjs-ih/jack-connectors/amphenol/) connectors.
+But seems that Neutrik [NMJ6HFD2](https://www.tme.eu/es/details/ntr-nmj6hfd2/conectores-jack/neutrik/nmj6hfd2/) are compatible too, not tested yet.
 
 ## Main mods
 ### More gain
