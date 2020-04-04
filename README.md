@@ -39,7 +39,8 @@ Components appears in the order it is meant to be soldered, from little to bigge
 - [Tutorial by EEVBlog](https://youtu.be/b9FC9fAlfQE?t=405) Hand soldering SMT.
 - [Tutorial SMT4Dummies de JorFru (Spanish)](https://www.youtube.com/watch?v=6ee5rFPXXJo) Hand soldering dry technique.
 
-Check Assembly List on BOM/ folder and open it with your internet browser.
+## Where to place components?
+Check the interactive component placement [viewer](http://music.uc3m.es/IceScreamer/BOM)
 
 ### Placing resistors
 All resistors are SMD 2012(metric) or SMD 0805(imperial) size. You must have in mind all resistors measure 2,00mm x 1,25mm.
