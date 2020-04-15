@@ -39,6 +39,9 @@ Components appears in the order it is meant to be soldered, from little to bigge
 - [Tutorial by EEVBlog](https://youtu.be/b9FC9fAlfQE?t=405) Hand soldering SMT.
 - [Tutorial SMT4Dummies de JorFru (Spanish)](https://www.youtube.com/watch?v=6ee5rFPXXJo) Hand soldering dry technique.
 
+## Where to place components?
+Check the interactive component placement [viewer](http://music.uc3m.es/IceScreamer/BOM)
+
 ### Placing resistors
 All resistors are SMD 2012(metric) or SMD 0805(imperial) size. You must have in mind all resistors measure 2,00mm x 1,25mm.
 Resistors are thick film metal resistors.
@@ -137,7 +140,8 @@ Battery cell Connect your battery lead to "9V Batt" mark, mind its polarity. Bef
 - C1 y C2: electrolytic caps, 220-470uF, at least 15V. Better use low-ESR. Lead spacing is 2.54mm.
 
 ### Jacks
-Input and output are using Neutrik [NMJ6HFD2](https://www.tme.eu/es/details/ntr-nmj6hfd2/conectores-jack/neutrik/nmj6hfd2/) connector.
+Input and output are using Amphenol [ACJS-IH](https://www.tme.eu/en/details/acjs-ih/jack-connectors/amphenol/) connectors.
+But seems that Neutrik [NMJ6HFD2](https://www.tme.eu/es/details/ntr-nmj6hfd2/conectores-jack/neutrik/nmj6hfd2/) are compatible too, not tested yet.
 
 ## Main mods
 ### More gain

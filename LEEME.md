@@ -36,6 +36,9 @@ Si quieres aprender a soldar, puedes tomar estos vídeos como ejemplo:
 - [Tutorial SMT4Dummies de David Antón](https://www.youtube.com/watch?v=6ee5rFPXXJo) SMT con flux
 - [Tutorial random de internet](https://www.youtube.com/watch?v=BA7luKtNBzU) SMT con pistola de aire caliente
 
+## ¿Dónde soldar cada componente?
+Echa un vistazo a la [herramienta interactiva](http://music.uc3m.es/IceScreamer/BOM) para ver la posición en la placa de cada componente.
+
 ### Resistencias
 Todas las resistencias del IceScreamer, al igual que los condensadores, son componentes SMD de tamaño 2012 métrico, equivale a 0805 imperial. Para no equivocarnos, los componentes miden 2,0mm x 1,25mm.
 Las resistencias serán de película metálica gruesa.
